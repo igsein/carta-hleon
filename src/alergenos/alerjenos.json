@@ -2,71 +2,71 @@
     {
       "NAME": "ALTRAMUCES",
       "ID": 1,
-      "PIC": "/assets/altramuces.png"
+      "PIC": "./assets/altramuces.png"
     },
     {
         "NAME": "APIO",
         "ID": 2,
-        "PIC": "/assets/apio.png"
+        "PIC": "./assets/apio.png"
       },
       {
         "NAME": "CACAHUETES",
         "ID": 3,
-        "PIC": "/assets/cacahuetes.png"
+        "PIC": "./assets/cacahuetes.png"
       },
       {
         "NAME": "CRUSTÁCEOS",
         "ID": 4,
-        "PIC": "/assets/crustaceos.png"
+        "PIC": "./assets/crustaceos.png"
       },
       {
         "NAME": "DIÓXIDO DE AZUFRE Y SULFITOS",
         "ID": 5,
-        "PIC": "/assets/dioxidoazufresulfitos.png"
+        "PIC": "./assets/dioxidoazufresulfitos.png"
       },
       {
         "NAME": "FRUTOS SECOS",
         "ID": 6,
-        "PIC": "/assets/frutossecos.png"
+        "PIC": "./assets/frutossecos.png"
       },
       {
         "NAME": "GLÚTEN",
         "ID": 7,
-        "PIC": "/assets/gluten.png"
+        "PIC": "./assets/gluten.png"
       },
       {
         "NAME": "HUEVO",
         "ID": 8,
-        "PIC": "/assets/huevo.png"
+        "PIC": "./assets/huevo.png"
       },
       {
         "NAME": "LÁCTEOS",
         "ID": 9,
-        "PIC": "/assets/lacteos.png"
+        "PIC": "./assets/lacteos.png"
       },
       {
         "NAME": "MOLUSCOS",
         "ID": 10,
-        "PIC": "/assets/moluscos.png"
+        "PIC": "./assets/moluscos.png"
       },
       {
         "NAME": "MOSTAZA",
         "ID": 11,
-        "PIC": "/assets/mostaza.png"
+        "PIC": "./assets/mostaza.png"
       },
       {
         "NAME": "PESCADO",
         "ID": 12,
-        "PIC": "/assets/pescado.png"
+        "PIC": "./assets/pescado.png"
       },
       {
         "NAME": "SÉSAMO",
         "ID": 13,
-        "PIC": "/assets/sesamo.png"
+        "PIC": "./assets/sesamo.png"
       },
       {
         "NAME": "SOJA",
         "ID": 14,
-        "PIC": "/assets/soja.png"
+        "PIC": "./assets/soja.png"
       }
 ]
