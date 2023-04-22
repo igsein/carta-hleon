@@ -1,0 +1,430 @@
+[
+    {
+      "NAME": "Tuna",
+      "PRICE": 1.50,
+      "TYPE": "TOASTS",
+      "ALERG": [7,12]
+    },
+    {
+        "NAME": "Anchovy",
+        "PRICE": 1.50,
+        "TYPE": "TOASTS",
+        "ALERG": [7,12]
+      },
+    {
+      "NAME": "Bacon ",
+      "PRICE": 1.80,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+    },
+    {
+      "NAME": "Iberian ham with tomato and oil",
+      "PRICE": 2.50,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "Serrano ham with tomato and oil",
+      "PRICE": 1.50,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "Lacon",
+      "PRICE": 1.80,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "Butter and jam",
+      "PRICE": 1.20,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "Parisian ",
+      "PRICE": 1.80,
+      "TYPE": "TOASTS",
+      "ALERG": [7,9]
+
+    },
+    {
+      "NAME": "Pate ",
+      "PRICE": 1.20,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "Turkey ",
+      "PRICE": 1.50,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "Cheese (fresh or cured melted) ",
+      "PRICE": 1.50,
+      "TYPE": "TOASTS",
+      "ALERG": [7,9]
+
+    },
+    {
+      "NAME": "Tomato and oil",
+      "PRICE": 1.20,
+      "TYPE": "TOASTS",
+      "ALERG": [7]
+
+    },
+    {
+      "NAME": "French omelette",
+      "PRICE": 1.80,
+      "TYPE": "TOASTS",
+      "ALERG": [7,8]
+
+    },
+    {
+      "NAME": "Scrambled potatoes with egg",
+      "PRICE": 2,
+      "TYPE": "TOASTS",
+      "ALERG": [7,8]
+ 
+
+    },
+    {
+      "NAME": "Increase of €0.50 for what you want to add",
+      "PRICE": "",
+      "TYPE": "TOASTS",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
+
+    },
+
+
+
+
+
+
+    {
+      "NAME": "Normal (meat, cheese, lettuce and tomato)",
+      "PRICE": 4.50,
+      "TYPE": "BURGERS",
+      "ALERG": [7,9]
+    },
+    {
+        "NAME": "Normal (meat and cheese) ",
+        "PRICE": 4,
+        "TYPE": "BURGERS",
+        "ALERG": [7,9]
+      },
+    {
+      "NAME": "SPECIAL (MEAT, CHEESE, HAM, LETTUCE, TOMATO, ONION, BACON AND EGG) ",
+      "PRICE": 6,
+      "TYPE": "BURGERS",
+      "ALERG": [7,9,8]
+    },
+    {
+      "NAME": "seafood paella",
+      "PRICE": "",
+      "TYPE": "CUSTOM MADE",
+      "ALERG": [4,12,10]
+    },
+    {
+      "NAME": "Suckling pig with baked potatoes and salad",
+      "PRICE": "",
+      "TYPE": "CUSTOM MADE"
+    },
+    {
+      "NAME": "Rice with lobster",
+      "PRICE": "",
+      "TYPE": "CUSTOM MADE",
+      "ALERG": [4]
+    },
+    {
+      "NAME": "Rice with Iberian pork",
+      "PRICE": "",
+      "TYPE": "CUSTOM MADE"
+    },
+    {
+      "NAME": "Rice with prawns",
+      "PRICE": "",
+      "TYPE": "CUSTOM MADE",
+      "ALERG": [4]
+    },
+    {
+      "NAME": "Bacon with cheese ",
+      "PRICE": 4.50,
+      "TYPE": "SNACK",
+      "ALERG": [7,9]
+    },
+    {
+      "NAME": "Iberian ham",
+      "PRICE": 6,
+      "TYPE": "SNACK",
+      "ALERG": [7]
+    },
+    {
+      "NAME": "Serrano ham",
+      "PRICE": 4,
+      "TYPE": "SNACK",
+      "ALERG": [7]
+    },
+    {
+      "NAME": "Loin with cheese",
+      "PRICE": 5,
+      "TYPE": "SNACK",
+      "ALERG": [7,9]
+    },
+    {
+      "NAME": "Chicken breast",
+      "PRICE": 5,
+      "TYPE": "SNACK",
+      "ALERG": [7,9]
+    },
+    {
+      "NAME": "French omelette",
+      "PRICE": 4,
+      "TYPE": "SNACK",
+      "ALERG": [7]
+    },
+    {
+        "NAME": "French omelette (ham and cheese) ",
+        "PRICE": 4.50,
+        "TYPE": "SNACK",
+        "ALERG": [7]
+      },
+    {
+      "NAME": "Serranito (loin, cheese, tomato, peppers and ham)",
+      "PRICE": 6,
+      "TYPE": "SNACK",
+      "ALERG": [7,9]
+    },
+
+
+    {
+      "NAME": "Increase of €0.50 for what you want to add",
+      "PRICE": "",
+      "TYPE": "SNACK",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
+
+    },
+
+
+
+
+    {
+      "NAME": "Normal (york ham and cheese)",
+      "PRICE": 3.50,
+      "TYPE": "SANDWICHES",
+      "ALERG": [7,9]
+   
+    },
+        {
+      "NAME": "Vegetable",
+      "PRICE": 3.50,
+      "TYPE": "SANDWICHES",
+      "ALERG": [7,9,8]
+    },
+    {
+      "NAME": "Special (york ham, cheese, lettuce, tomato, bacon and egg) ",
+      "PRICE": 6,
+      "TYPE": "SANDWICHES",
+      "ALERG": [7,9,8]
+ 
+    },
+    {
+      "NAME": "Increase of €0.50 for what you want to add",
+      "PRICE": "",
+      "TYPE": "SANDWICHES",
+      "STYLE": "incremento"
+ 
+
+ 
+ 
+
+    },
+    {
+      "NAME": "Squid, croquettes and salad",
+      "PRICE": 8,
+      "TYPE": "COMBINED DISHES",
+      "ALERG": [7,9,10]
+    },
+    {
+      "NAME": "Loin steaks, peppers, fried egg and chips",
+      "PRICE": 9,
+      "TYPE": "COMBINED DISHES",
+      "ALERG": [8]
+    },
+    {
+      "NAME": "Grilled chicken fillets, bacon, chips and fried egg",
+      "PRICE": 9,
+      "TYPE": "COMBINED DISHES",
+      "ALERG": [7,8]
+    },
+    {
+      "NAME": "Breaded chicken, fried egg, chips and salad",
+      "PRICE": 9,
+      "TYPE": "COMBINED DISHES",
+      "ALERG": [7,8]
+    },
+    {
+      "NAME": "Chicken sausages, fried egg and French fries",
+      "PRICE": 8,
+      "TYPE": "COMBINED DISHES",
+      "ALERG": [8]
+    },
+    {
+      "NAME": "French omelette accompanied by ham and salad",
+      "PRICE": 7,
+      "TYPE": "COMBINED DISHES",
+      "ALERG": [8]
+    },
+    {
+      "NAME": "Pork test",
+      "PRICE": 10,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "Chicken churritos with mustard and honey sauce",
+      "PRICE": 10,
+      "TYPE": "RATIONS",
+      "ALERG": [7,8,11]
+    },
+    {
+      "NAME": "Scrambled eggs with Iberian ham",
+      "PRICE": 11,
+      "TYPE": "RATIONS",
+      "ALERG": [8]
+    },
+    {
+      "NAME": "Potatoes with bacon and 4 cheeses",
+      "PRICE": 9,
+      "TYPE": "RATIONS",
+      "ALERG": [9]
+    },
+    {
+      "NAME": "Chicken sausages with mushrooms",
+      "PRICE": 9,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "Cheek pads",
+      "PRICE": 12,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "Sea bream cod",
+      "PRICE": 11,
+      "TYPE": "RATIONS",
+      "ALERG": [8,12]
+    },
+    {
+      "NAME": "Assortment of croquettes",
+      "PRICE": 9,
+      "TYPE": "RATIONS",
+      "ALERG": [7,8]
+    },
+    {
+      "NAME": "Chicken wings",
+      "PRICE": 9,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "Assortment of Iberian ham (ham, loin and cheese)",
+      "PRICE": 18,
+      "TYPE": "RATIONS",
+      "ALERG": [9]
+    },
+    {
+      "NAME": "Fried fish",
+      "PRICE": 13,
+      "TYPE": "RATIONS",
+      "ALERG": [12]
+    },
+    {
+      "NAME": "Cuttlefish",
+      "PRICE": 13,
+      "TYPE": "RATIONS",
+      "ALERG": [10]
+    },
+    {
+      "NAME": "Squid ",
+      "PRICE": 10,
+      "TYPE": "RATIONS",
+      "ALERG": [10]
+    },
+    {
+      "NAME": "Mixed salad",
+      "PRICE": 6,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "CHIPS",
+      "PRICE": 5,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "Fried snouts",
+      "PRICE": 10,
+      "TYPE": "RATIONS"
+    },
+    {
+      "NAME": "Bread portion",
+      "PRICE": 1.20,
+      "TYPE": "RATIONS",
+      "ALERG": [7]
+    },
+    {
+      "NAME": "Beef carpaccio with foie",
+      "PRICE": 12,
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    },
+    {
+      "NAME": "Boletus or shellfish bags",
+      "PRICE": 10,
+      "TYPE": "ACCORDING TO AVAILABILITY",
+      "ALERG": [4]
+    },
+    {
+      "NAME": "Partridge salad",
+      "PRICE": 12,
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    },
+    {
+      "NAME": "Iberian pork",
+      "PRICE": 18,
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    },
+    {
+      "NAME": "Iberian feather",
+      "PRICE": 20,
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    },
+    {
+      "NAME": "T-bone steak",
+      "PRICE": "",
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    },
+    {
+      "NAME": "Beef tenderloin",
+      "PRICE": "",
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    },
+    {
+      "NAME": "beef entrecote",
+      "PRICE": "",
+      "TYPE": "ACCORDING TO AVAILABILITY"
+    }
+ 
+  ]

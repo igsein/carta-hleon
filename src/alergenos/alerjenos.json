@@ -1,0 +1,72 @@
+[
+    {
+      "NAME": "ALTRAMUCES",
+      "ID": 1,
+      "PIC": "/images/altramuces.png"
+    },
+    {
+        "NAME": "APIO",
+        "ID": 2,
+        "PIC": "/images/apio.png"
+      },
+      {
+        "NAME": "CACAHUETES",
+        "ID": 3,
+        "PIC": "/images/cacahuetes.png"
+      },
+      {
+        "NAME": "CRUSTÁCEOS",
+        "ID": 4,
+        "PIC": "/images/crustaceos.png"
+      },
+      {
+        "NAME": "DIÓXIDO DE AZUFRE Y SULFITOS",
+        "ID": 5,
+        "PIC": "/images/dioxidoazufresulfitos.png"
+      },
+      {
+        "NAME": "FRUTOS SECOS",
+        "ID": 6,
+        "PIC": "/images/frutossecos.png"
+      },
+      {
+        "NAME": "GLÚTEN",
+        "ID": 7,
+        "PIC": "/images/gluten.png"
+      },
+      {
+        "NAME": "HUEVO",
+        "ID": 8,
+        "PIC": "/images/huevo.png"
+      },
+      {
+        "NAME": "LÁCTEOS",
+        "ID": 9,
+        "PIC": "/images/lacteos.png"
+      },
+      {
+        "NAME": "MOLUSCOS",
+        "ID": 10,
+        "PIC": "/images/moluscos.png"
+      },
+      {
+        "NAME": "MOSTAZA",
+        "ID": 11,
+        "PIC": "/images/mostaza.png"
+      },
+      {
+        "NAME": "PESCADO",
+        "ID": 12,
+        "PIC": "/images/pescado.png"
+      },
+      {
+        "NAME": "SÉSAMO",
+        "ID": 13,
+        "PIC": "/images/sesamo.png"
+      },
+      {
+        "NAME": "SOJA",
+        "ID": 14,
+        "PIC": "/images/soja.png"
+      }
+]
