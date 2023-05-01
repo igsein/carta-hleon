@@ -1,4 +1,10 @@
 [
+        {
+      "NAME": "Only toast will be served until 2:00 p.m.",
+      "PRICE": "",
+      "TYPE": "TOASTS",
+     
+    },
     {
       "NAME": "Tuna",
       "PRICE": 1.50,
