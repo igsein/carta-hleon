@@ -1,4 +1,10 @@
 [
+        {
+      "NAME": "Sólo se sirven tostadas hasta las 14:00h",
+      "PRICE": "",
+      "TYPE": "TOSTADAS",
+     
+    },
     {
       "NAME": "ATÚN",
       "PRICE": 1.50,
