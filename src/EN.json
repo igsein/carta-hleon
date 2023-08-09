@@ -240,12 +240,7 @@
     "TYPE": "COMBINED DISHES",
     "ALERG": [7, 8]
   },
-  {
-    "NAME": "Breaded chicken, fried egg, chips and salad",
-    "PRICE": 9,
-    "TYPE": "COMBINED DISHES",
-    "ALERG": [7, 8]
-  },
+ 
   {
     "NAME": "Chicken sausages, fried egg and French fries",
     "PRICE": 8,
