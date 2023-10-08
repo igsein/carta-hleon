@@ -1,7 +1,4 @@
 [
-
-
-        
         {
       "NAME": "Sólo se sirven tostadas hasta las 14:00h",
       "PRICE": "",
@@ -431,95 +428,5 @@
       "PRICE": "",
       "TYPE": "SEGÚN DISPONIBILIDAD"
     }
-
-
-
-
-
-
-
-
-
-
-
-
-        
- {
-      "NAME": "Muerte por chocolate",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES",
  
-     
-    },
-         {
-      "NAME": "Tarta de manzana con dulce de leche y canela",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES",
- 
-     
-    },
-           {
-      "NAME": "Red Velvet",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES",
- 
-     
-    },
-             {
-      "NAME": "Tarta de queso artesana",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES",
- 
-     
-    },
-              {
-      "NAME": "Lingote brownie con nueces",
-      "PRICE": "3",
-      "TYPE": "POSTRES",
- 
-     
-    },
-        {
-      "NAME": "Mini Carolina",
-      "PRICE": "3",
-      "TYPE": "POSTRES",
- 
-     
-    },
-                    
-
-        
-            
-
-      {
-      "NAME": "Natillas",
-      "PRICE": "2.50",
-      "TYPE": "POSTRES",
- 
-     
-    },
-
-         {
-      "NAME": "Coulant",
-      "PRICE": "2.50",
-      "TYPE": "POSTRES",
- 
-     
-    },
-         {
-      "NAME": "Copa Chocolate",
-      "PRICE": "5",
-      "TYPE": "POSTRES",
- 
-     
-    },
-         {
-      "NAME": "Copa Frutos Rojos",
-      "PRICE": "5",
-      "TYPE": "POSTRES",
- 
-     
-    }
-
-        
   ]
