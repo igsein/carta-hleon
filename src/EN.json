@@ -240,7 +240,7 @@
     "TYPE": "COMBINED DISHES",
     "ALERG": [7, 8]
   },
- 
+
   {
     "NAME": "Chicken sausages, fried egg and French fries",
     "PRICE": 8,
@@ -390,96 +390,56 @@
     "TYPE": "ACCORDING TO AVAILABILITY"
   },
 
+  {
+    "NAME": "Death By Chocolate",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Apple pie with dulce de leche and cinnamon",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Red Velvet",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Artisan cheesecake",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Brownie ingot with walnuts",
+    "PRICE": "3",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Mini Carolina",
+    "PRICE": "3",
+    "TYPE": "DESSERTS"
+  },
 
+  {
+    "NAME": "Custard",
+    "PRICE": "2.50",
+    "TYPE": "DESSERTS"
+  },
 
-
-
-
-
-{
-      "NAME": "Death By Chocolate",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES"
- 
-     
-    },
-         {
-      "NAME": "Apple pie with dulce de leche and cinnamon",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES"
- 
-     
-    },
-           {
-      "NAME": "Red Velvet",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES"
- 
-     
-    },
-             {
-      "NAME": "Artisan cheesecake",
-      "PRICE": "4.50",
-      "TYPE": "POSTRES"
- 
-     
-    },
-              {
-      "NAME": "Brownie ingot with walnuts",
-      "PRICE": "3",
-      "TYPE": "POSTRES"
- 
-     
-    },
-        {
-      "NAME": "Mini Carolina",
-      "PRICE": "3",
-      "TYPE": "POSTRES"
- 
-     
-    },
-                    
-
-        
-            
-
-      {
-      "NAME": "Custard",
-      "PRICE": "2.50",
-      "TYPE": "POSTRES"
- 
-     
-    },
-
-         {
-      "NAME": "Coulant",
-      "PRICE": "2.50",
-      "TYPE": "POSTRES"
- 
-     
-    },
-         {
-      "NAME": "Chocolate Cup",
-      "PRICE": "5",
-      "TYPE": "POSTRES"
- 
-     
-    },
-         {
-      "NAME": "Red Fruit Cup",
-      "PRICE": "5",
-      "TYPE": "POSTRES"
- 
-     
-    }
-
-
-
-
-
-
-
-
-
-  
+  {
+    "NAME": "Coulant",
+    "PRICE": "2.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Chocolate Cup",
+    "PRICE": "5",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Red Fruit Cup",
+    "PRICE": "5",
+    "TYPE": "DESSERTS"
+  }
 ]
