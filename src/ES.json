@@ -1,432 +1,444 @@
 [
-        {
-      "NAME": "Sólo se sirven tostadas hasta las 14:00h",
-      "PRICE": "",
-      "TYPE": "TOSTADAS",
-      "STYLE": "incremento"
-     
-    },
-    {
-      "NAME": "ATÚN",
-      "PRICE": 1.50,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7,12]
-    },
-    {
-        "NAME": "ANCHOA",
-        "PRICE": 1.50,
-        "TYPE": "TOSTADAS",
-        "ALERG": [7,12]
-      },
-    {
-      "NAME": "BACON",
-      "PRICE": 1.80,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
-    },
-    {
-      "NAME": "JAMÓN IBÉRICO CON TOMATE Y ACEITE",
-      "PRICE": 2.50,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
+  {
+    "NAME": "Sólo se sirven tostadas hasta las 14:00h",
+    "PRICE": "",
+    "TYPE": "TOSTADAS",
+    "STYLE": "incremento"
+  },
+  {
+    "NAME": "ATÚN",
+    "PRICE": 1.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 12]
+  },
+  {
+    "NAME": "ANCHOA",
+    "PRICE": 1.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 12]
+  },
+  {
+    "NAME": "BACON",
+    "PRICE": 1.8,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "JAMÓN IBÉRICO CON TOMATE Y ACEITE",
+    "PRICE": 2.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "JAMÓN SERRANO CON TOMATE Y ACEITE",
+    "PRICE": 1.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "LACÓN",
+    "PRICE": 1.8,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "MANTEQUILLA Y MERMELADA",
+    "PRICE": 1.2,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "PARISINA",
+    "PRICE": 1.8,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "PATÉ",
+    "PRICE": 1.2,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "PAVO",
+    "PRICE": 1.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "QUESO(FUNDIDO FRESCO O CURADO)",
+    "PRICE": 1.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "TOMATE Y ACEITE",
+    "PRICE": 1.2,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "TORTILLA FRANCESA",
+    "PRICE": 1.8,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "REVUELTO DE PATATAS CON HUEVO",
+    "PRICE": 2,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
+    "PRICE": "",
+    "TYPE": "TOSTADAS",
+    "STYLE": "incremento"
+  },
 
-    },
-    {
-      "NAME": "JAMÓN SERRANO CON TOMATE Y ACEITE",
-      "PRICE": 1.50,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
+  {
+    "NAME": "NORMAL(CARNE , QUESO, LECHUGA Y TOMATE)",
+    "PRICE": 4.5,
+    "TYPE": "HAMBURGUESAS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "NORMAL(CARNE Y QUESO)",
+    "PRICE": 4,
+    "TYPE": "HAMBURGUESAS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "ESPECIAL(CARNE, QUESO, JAMÓN YORK, LECHUGA , TOMATE, CEBOLLA, BACON Y HUEVO)",
+    "PRICE": 6,
+    "TYPE": "HAMBURGUESAS",
+    "ALERG": [7, 9, 8]
+  },
+  {
+    "NAME": "PAELLA DE MARISCOS",
+    "PRICE": "",
+    "TYPE": "POR ENCARGO",
+    "ALERG": [4, 12, 10]
+  },
+  {
+    "NAME": "COCHINILLO CON PATATAS PANADERAS Y ENSALADA",
+    "PRICE": "",
+    "TYPE": "POR ENCARGO"
+  },
+  {
+    "NAME": "ARROZ CON BOGAVANTE",
+    "PRICE": "",
+    "TYPE": "POR ENCARGO",
+    "ALERG": [4]
+  },
+  {
+    "NAME": "ARROZ CON PRESA IBÉRICA",
+    "PRICE": "",
+    "TYPE": "POR ENCARGO"
+  },
+  {
+    "NAME": "ARROZ CON GAMBONES",
+    "PRICE": "",
+    "TYPE": "POR ENCARGO",
+    "ALERG": [4]
+  },
+  {
+    "NAME": "BACON CON QUESO",
+    "PRICE": 4.5,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "JAMÓN IBÉRICO",
+    "PRICE": 6,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "JAMÓN SERRANO",
+    "PRICE": 4,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "LOMO CON QUESO",
+    "PRICE": 5,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "PECHUGA DE POLLO",
+    "PRICE": 5,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "TORTILLA FRANCESA",
+    "PRICE": 4,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "TORTILLA FRANCESA(JAMÓN YORK Y QUESO)",
+    "PRICE": 4.5,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "SERRANITO(LOMO,QUESO,TOMATE,PIMIENTOS Y JAMÓN)",
+    "PRICE": 6,
+    "TYPE": "BOCADILLOS",
+    "ALERG": [7, 9]
+  },
 
-    },
-    {
-      "NAME": "LACÓN",
-      "PRICE": 1.80,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
+  {
+    "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
+    "PRICE": "",
+    "TYPE": "BOCADILLOS",
+    "STYLE": "incremento"
+  },
 
-    },
-    {
-      "NAME": "MANTEQUILLA Y MERMELADA",
-      "PRICE": 1.20,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
+  {
+    "NAME": "NORMAL(JAMÓN YORK Y QUESO)",
+    "PRICE": 3.5,
+    "TYPE": "SANDWICHES",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "VEGETAL",
+    "PRICE": 3.5,
+    "TYPE": "SANDWICHES",
+    "ALERG": [7, 9, 8]
+  },
+  {
+    "NAME": "ESPECIAL(JAMÓN YORK,QUESO , LECHUGA, TOMATE, BACON Y HUEVO)",
+    "PRICE": 6,
+    "TYPE": "SANDWICHES",
+    "ALERG": [7, 9, 8]
+  },
+  {
+    "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
+    "PRICE": "",
+    "TYPE": "SANDWICHES",
+    "STYLE": "incremento"
+  },
+  {
+    "NAME": "CALAMARES, CROQUETAS Y ENSALADA",
+    "PRICE": 8,
+    "TYPE": "PLATOS COMBINADOS",
+    "ALERG": [7, 9, 10]
+  },
+  {
+    "NAME": "FILETES DE LOMO, PIMIENTOS, HUEVO FRITO Y PATATAS FRITAS",
+    "PRICE": 9,
+    "TYPE": "PLATOS COMBINADOS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "FILETES DE POLLO A LA PLANCHA, BACON, PATATAS FRITAS Y HUEVO FRITO",
+    "PRICE": 9,
+    "TYPE": "PLATOS COMBINADOS",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "SALCHICAS DE POLLO,HUEVO FRITO Y PATATAS FRITAS",
+    "PRICE": 8,
+    "TYPE": "PLATOS COMBINADOS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "TORTILLA FRANCESA ACOMPAÑADA DE JAMÓN YORK Y ENSALADA",
+    "PRICE": 7,
+    "TYPE": "PLATOS COMBINADOS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "PRUEBA DE CERDO",
+    "PRICE": 10,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "CHURRITOS DE POLLO CON SALSA MOSTAZA Y MIEL",
+    "PRICE": 10,
+    "TYPE": "RACIONES",
+    "ALERG": [7, 8, 11]
+  },
+  {
+    "NAME": "HUEVOS ROTOS CON JAMÓN IBÉRICO",
+    "PRICE": 11,
+    "TYPE": "RACIONES",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "PATATAS CON BACON Y 4 QUESOS",
+    "PRICE": 9,
+    "TYPE": "RACIONES",
+    "ALERG": [9]
+  },
+  {
+    "NAME": "SALCHICHAS DE POLLO CON CHAMPIÑONES",
+    "PRICE": 9,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "CARRILLERAS",
+    "PRICE": 12,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "BACALAO A LA DORADA",
+    "PRICE": 11,
+    "TYPE": "RACIONES",
+    "ALERG": [8, 12]
+  },
+  {
+    "NAME": "SURTIDO DE CROQUETAS",
+    "PRICE": 9,
+    "TYPE": "RACIONES",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "ALITAS DE POLLO",
+    "PRICE": 9,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "SURTIDO DE IBÉRICOS(JAMÓN, LOMO Y QUESO)",
+    "PRICE": 18,
+    "TYPE": "RACIONES",
+    "ALERG": [9]
+  },
+  {
+    "NAME": "FRITURAS DE PESCADITOS",
+    "PRICE": 13,
+    "TYPE": "RACIONES",
+    "ALERG": [12]
+  },
+  {
+    "NAME": "SEPIA",
+    "PRICE": 13,
+    "TYPE": "RACIONES",
+    "ALERG": [10]
+  },
+  {
+    "NAME": "CALAMARES",
+    "PRICE": 10,
+    "TYPE": "RACIONES",
+    "ALERG": [10]
+  },
+  {
+    "NAME": "ENSALADA MIXTA",
+    "PRICE": 6,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "PATATAS FRITAS",
+    "PRICE": 5,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "MORROS FRITOS",
+    "PRICE": 10,
+    "TYPE": "RACIONES"
+  },
+  {
+    "NAME": "RACIÓN DE PAN",
+    "PRICE": 1.2,
+    "TYPE": "RACIONES",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "CARPACCIO DE TERNERA CON FOIE",
+    "PRICE": 12,
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
+  {
+    "NAME": "SAQUITOS DE BOLETUS O MARISCO",
+    "PRICE": 10,
+    "TYPE": "SEGÚN DISPONIBILIDAD",
+    "ALERG": [4]
+  },
+  {
+    "NAME": "ENSALADA DE PERDIZ",
+    "PRICE": 12,
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
+  {
+    "NAME": "PRESA IBÉRICA",
+    "PRICE": 18,
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
+  {
+    "NAME": "PLUMA IBÉRICA",
+    "PRICE": 20,
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
+  {
+    "NAME": "CHULETÓN DE TERNERA",
+    "PRICE": "",
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
+  {
+    "NAME": "SOLOMILLO DE TERNERA",
+    "PRICE": "",
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
+  {
+    "NAME": "ENTRECOT DE TERNERA",
+    "PRICE": "",
+    "TYPE": "SEGÚN DISPONIBILIDAD"
+  },
 
-    },
-    {
-      "NAME": "PARISINA",
-      "PRICE": 1.80,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7,9]
+  {
+    "NAME": "Muerte por chocolate",
+    "PRICE": "4.50",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Tarta de manzana con dulce de leche y canela",
+    "PRICE": "4.50",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Red Velvet",
+    "PRICE": "4.50",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Tarta de queso artesana",
+    "PRICE": "4.50",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Lingote brownie con nueces",
+    "PRICE": "3",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Mini Carolina",
+    "PRICE": "3",
+    "TYPE": "POSTRES"
+  },
 
-    },
-    {
-      "NAME": "PATÉ",
-      "PRICE": 1.20,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
+  {
+    "NAME": "Natillas",
+    "PRICE": "2.50",
+    "TYPE": "POSTRES"
+  },
 
-    },
-    {
-      "NAME": "PAVO",
-      "PRICE": 1.50,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
-
-    },
-    {
-      "NAME": "QUESO(FUNDIDO FRESCO O CURADO)",
-      "PRICE": 1.50,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7,9]
-
-    },
-    {
-      "NAME": "TOMATE Y ACEITE",
-      "PRICE": 1.20,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7]
-
-    },
-    {
-      "NAME": "TORTILLA FRANCESA",
-      "PRICE": 1.80,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7,8]
-
-    },
-    {
-      "NAME": "REVUELTO DE PATATAS CON HUEVO",
-      "PRICE": 2,
-      "TYPE": "TOSTADAS",
-      "ALERG": [7,8]
- 
-
-    },
-    {
-      "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
-      "PRICE": "",
-      "TYPE": "TOSTADAS",
-      "STYLE": "incremento"
- 
-
- 
- 
-
-    },
-
-
-
-
-
-
-    {
-      "NAME": "NORMAL(CARNE , QUESO, LECHUGA Y TOMATE)",
-      "PRICE": 4.50,
-      "TYPE": "HAMBURGUESAS",
-      "ALERG": [7,9]
-    },
-    {
-        "NAME": "NORMAL(CARNE Y QUESO)",
-        "PRICE": 4,
-        "TYPE": "HAMBURGUESAS",
-        "ALERG": [7,9]
-      },
-    {
-      "NAME": "ESPECIAL(CARNE, QUESO, JAMÓN YORK, LECHUGA , TOMATE, CEBOLLA, BACON Y HUEVO)",
-      "PRICE": 6,
-      "TYPE": "HAMBURGUESAS",
-      "ALERG": [7,9,8]
-    },
-    {
-      "NAME": "PAELLA DE MARISCOS",
-      "PRICE": "",
-      "TYPE": "POR ENCARGO",
-      "ALERG": [4,12,10]
-    },
-    {
-      "NAME": "COCHINILLO CON PATATAS PANADERAS Y ENSALADA",
-      "PRICE": "",
-      "TYPE": "POR ENCARGO"
-    },
-    {
-      "NAME": "ARROZ CON BOGAVANTE",
-      "PRICE": "",
-      "TYPE": "POR ENCARGO",
-      "ALERG": [4]
-    },
-    {
-      "NAME": "ARROZ CON PRESA IBÉRICA",
-      "PRICE": "",
-      "TYPE": "POR ENCARGO"
-    },
-    {
-      "NAME": "ARROZ CON GAMBONES",
-      "PRICE": "",
-      "TYPE": "POR ENCARGO",
-      "ALERG": [4]
-    },
-    {
-      "NAME": "BACON CON QUESO",
-      "PRICE": 4.50,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7,9]
-    },
-    {
-      "NAME": "JAMÓN IBÉRICO",
-      "PRICE": 6,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7]
-    },
-    {
-      "NAME": "JAMÓN SERRANO",
-      "PRICE": 4,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7]
-    },
-    {
-      "NAME": "LOMO CON QUESO",
-      "PRICE": 5,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7,9]
-    },
-    {
-      "NAME": "PECHUGA DE POLLO",
-      "PRICE": 5,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7,9]
-    },
-    {
-      "NAME": "TORTILLA FRANCESA",
-      "PRICE": 4,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7]
-    },
-    {
-        "NAME": "TORTILLA FRANCESA(JAMÓN YORK Y QUESO)",
-        "PRICE": 4.50,
-        "TYPE": "BOCADILLOS",
-        "ALERG": [7]
-      },
-    {
-      "NAME": "SERRANITO(LOMO,QUESO,TOMATE,PIMIENTOS Y JAMÓN)",
-      "PRICE": 6,
-      "TYPE": "BOCADILLOS",
-      "ALERG": [7,9]
- 
-    },
-
-
-
-    {
-      "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
-      "PRICE": "",
-      "TYPE": "BOCADILLOS",
-      "STYLE": "incremento"
- 
-
- 
- 
-
-    },
-
-
-
-    {
-      "NAME": "NORMAL(JAMÓN YORK Y QUESO)",
-      "PRICE": 3.50,
-      "TYPE": "SANDWICHES",
-      "ALERG": [7,9]
-   
-    },
-        {
-      "NAME": "VEGETAL",
-      "PRICE": 3.50,
-      "TYPE": "SANDWICHES",
-      "ALERG": [7,9,8]
-    },
-    {
-      "NAME": "ESPECIAL(JAMÓN YORK,QUESO , LECHUGA, TOMATE, BACON Y HUEVO)",
-      "PRICE": 6,
-      "TYPE": "SANDWICHES",
-      "ALERG": [7,9,8]
- 
-    },
-    {
-      "NAME": "INCREMENTO DE 0,50€ POR LO QUE QUIERA AÑADIR",
-      "PRICE": "",
-      "TYPE": "SANDWICHES",
-      "STYLE": "incremento"
- 
-
- 
- 
-
-    },
-    {
-      "NAME": "CALAMARES, CROQUETAS Y ENSALADA",
-      "PRICE": 8,
-      "TYPE": "PLATOS COMBINADOS",
-      "ALERG": [7,9,10]
-    },
-    {
-      "NAME": "FILETES DE LOMO, PIMIENTOS, HUEVO FRITO Y PATATAS FRITAS",
-      "PRICE": 9,
-      "TYPE": "PLATOS COMBINADOS",
-      "ALERG": [8]
-    },
-    {
-      "NAME": "FILETES DE POLLO A LA PLANCHA, BACON, PATATAS FRITAS Y HUEVO FRITO",
-      "PRICE": 9,
-      "TYPE": "PLATOS COMBINADOS",
-      "ALERG": [7,8]
-    },
-    {
-      "NAME": "SALCHICAS DE POLLO,HUEVO FRITO Y PATATAS FRITAS",
-      "PRICE": 8,
-      "TYPE": "PLATOS COMBINADOS",
-      "ALERG": [8]
-    },
-    {
-      "NAME": "TORTILLA FRANCESA ACOMPAÑADA DE JAMÓN YORK Y ENSALADA",
-      "PRICE": 7,
-      "TYPE": "PLATOS COMBINADOS",
-      "ALERG": [8]
-    },
-    {
-      "NAME": "PRUEBA DE CERDO",
-      "PRICE": 10,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "CHURRITOS DE POLLO CON SALSA MOSTAZA Y MIEL",
-      "PRICE": 10,
-      "TYPE": "RACIONES",
-      "ALERG": [7,8,11]
-    },
-    {
-      "NAME": "HUEVOS ROTOS CON JAMÓN IBÉRICO",
-      "PRICE": 11,
-      "TYPE": "RACIONES",
-      "ALERG": [8]
-    },
-    {
-      "NAME": "PATATAS CON BACON Y 4 QUESOS",
-      "PRICE": 9,
-      "TYPE": "RACIONES",
-      "ALERG": [9]
-    },
-    {
-      "NAME": "SALCHICHAS DE POLLO CON CHAMPIÑONES",
-      "PRICE": 9,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "CARRILLERAS",
-      "PRICE": 12,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "BACALAO A LA DORADA",
-      "PRICE": 11,
-      "TYPE": "RACIONES",
-      "ALERG": [8,12]
-    },
-    {
-      "NAME": "SURTIDO DE CROQUETAS",
-      "PRICE": 9,
-      "TYPE": "RACIONES",
-      "ALERG": [7,8]
-    },
-    {
-      "NAME": "ALITAS DE POLLO",
-      "PRICE": 9,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "SURTIDO DE IBÉRICOS(JAMÓN, LOMO Y QUESO)",
-      "PRICE": 18,
-      "TYPE": "RACIONES",
-      "ALERG": [9]
-    },
-    {
-      "NAME": "FRITURAS DE PESCADITOS",
-      "PRICE": 13,
-      "TYPE": "RACIONES",
-      "ALERG": [12]
-    },
-    {
-      "NAME": "SEPIA",
-      "PRICE": 13,
-      "TYPE": "RACIONES",
-      "ALERG": [10]
-    },
-    {
-      "NAME": "CALAMARES",
-      "PRICE": 10,
-      "TYPE": "RACIONES",
-      "ALERG": [10]
-    },
-    {
-      "NAME": "ENSALADA MIXTA",
-      "PRICE": 6,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "PATATAS FRITAS",
-      "PRICE": 5,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "MORROS FRITOS",
-      "PRICE": 10,
-      "TYPE": "RACIONES"
-    },
-    {
-      "NAME": "RACIÓN DE PAN",
-      "PRICE": 1.20,
-      "TYPE": "RACIONES",
-      "ALERG": [7]
-    },
-    {
-      "NAME": "CARPACCIO DE TERNERA CON FOIE",
-      "PRICE": 12,
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    },
-    {
-      "NAME": "SAQUITOS DE BOLETUS O MARISCO",
-      "PRICE": 10,
-      "TYPE": "SEGÚN DISPONIBILIDAD",
-      "ALERG": [4]
-    },
-    {
-      "NAME": "ENSALADA DE PERDIZ",
-      "PRICE": 12,
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    },
-    {
-      "NAME": "PRESA IBÉRICA",
-      "PRICE": 18,
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    },
-    {
-      "NAME": "PLUMA IBÉRICA",
-      "PRICE": 20,
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    },
-    {
-      "NAME": "CHULETÓN DE TERNERA",
-      "PRICE": "",
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    },
-    {
-      "NAME": "SOLOMILLO DE TERNERA",
-      "PRICE": "",
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    },
-    {
-      "NAME": "ENTRECOT DE TERNERA",
-      "PRICE": "",
-      "TYPE": "SEGÚN DISPONIBILIDAD"
-    }
- 
-  ]
+  {
+    "NAME": "Coulant",
+    "PRICE": "2.50",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Copa Chocolate",
+    "PRICE": "5",
+    "TYPE": "POSTRES"
+  },
+  {
+    "NAME": "Copa Frutos Rojos",
+    "PRICE": "5",
+    "TYPE": "POSTRES"
+  }
+]
