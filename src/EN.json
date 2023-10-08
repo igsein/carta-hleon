@@ -388,5 +388,98 @@
     "NAME": "beef entrecote",
     "PRICE": "",
     "TYPE": "ACCORDING TO AVAILABILITY"
-  }
+  },
+
+
+
+
+
+
+
+{
+      "NAME": "Death By Chocolate",
+      "PRICE": "4.50",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+         {
+      "NAME": "Apple pie with dulce de leche and cinnamon",
+      "PRICE": "4.50",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+           {
+      "NAME": "Red Velvet",
+      "PRICE": "4.50",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+             {
+      "NAME": "Artisan cheesecake",
+      "PRICE": "4.50",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+              {
+      "NAME": "Brownie ingot with walnuts",
+      "PRICE": "3",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+        {
+      "NAME": "Mini Carolina",
+      "PRICE": "3",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+                    
+
+        
+            
+
+      {
+      "NAME": "Custard",
+      "PRICE": "2.50",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+
+         {
+      "NAME": "Coulant",
+      "PRICE": "2.50",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+         {
+      "NAME": "Chocolate Cup",
+      "PRICE": "5",
+      "TYPE": "POSTRES"
+ 
+     
+    },
+         {
+      "NAME": "Red Fruit Cup",
+      "PRICE": "5",
+      "TYPE": "POSTRES"
+ 
+     
+    }
+
+
+
+
+
+
+
+
+
+  
 ]
