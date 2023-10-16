@@ -11,8 +11,7 @@ function Menu({intl}) {
   const [viewAddText, setViewAddText] = useState(false);
   const [typesProds, setTypesProds] = useState("");
 
-  console.log(alergenos);
-
+ 
   function addZeroes(num) {
     return num.toLocaleString("en", {
       useGrouping: false,
@@ -84,9 +83,10 @@ function Menu({intl}) {
 
   const additionalText = () => {};
   return (
-    <div>
+    <div className="flip-scale-up-hor">
       <img src={logo} className="logo" />
       <table>
+        <tr className="separator">
         {typesProds
           ? typesProds.map((prods, i) => {
               return (
@@ -103,7 +103,7 @@ function Menu({intl}) {
                           const tipo = prod.TYPE;
                           console.log(prod.DESCRIPTION);
                           return (
-                            <tr key={i}>
+                            <tr key={i} className="tr-menu">
                               {!prod.DESCRIPTION ? (
                                 <td className={prod.STYLE ? prod.STYLE : ""}>
                                   {tipo === "PLATOS COMBINADOS"
@@ -145,6 +145,7 @@ function Menu({intl}) {
               );
             })
           : ""}
+          </tr>
       </table>
     </div>
   );
