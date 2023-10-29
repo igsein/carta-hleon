@@ -441,5 +441,10 @@
     "NAME": "Red Fruit Cup",
     "PRICE": "5",
     "TYPE": "DESSERTS"
-  }
+  },
+{
+    "NAME": "KitKat Ice Cream",
+    "PRICE": "3.50",
+    "TYPE": "DESSERTS"
+  },
 ]
