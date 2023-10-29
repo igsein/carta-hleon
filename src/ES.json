@@ -440,5 +440,10 @@
     "NAME": "Copa Frutos Rojos",
     "PRICE": "5",
     "TYPE": "POSTRES"
+  },
+{
+    "NAME": "Helado de KitKat",
+    "PRICE": "3.50",
+    "TYPE": "POSTRES"
   }
 ]
