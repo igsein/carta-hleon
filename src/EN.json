@@ -144,7 +144,7 @@
   },
   {
     "NAME": "Bacon with cheese ",
-    "PRICE": 5,
+    "PRICE": "5",
     "TYPE": "SNACK",
     "ALERG": [7, 9]
   },
