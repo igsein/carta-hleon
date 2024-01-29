@@ -148,6 +148,7 @@
     "TYPE": "BOCADILLOS",
     "ALERG": [7, 9]
   },
+
   {
     "NAME": "JAMÓN IBÉRICO",
     "PRICE": 6,
@@ -162,7 +163,7 @@
   },
   {
     "NAME": "LOMO CON QUESO",
-    "PRICE": 5,
+    "PRICE": "5",
     "TYPE": "BOCADILLOS",
     "ALERG": [7, 9]
   },
@@ -439,6 +440,11 @@
   {
     "NAME": "Copa Frutos Rojos",
     "PRICE": "5",
+    "TYPE": "POSTRES"
+  },
+{
+    "NAME": "Helado de KitKat",
+    "PRICE": "3.50",
     "TYPE": "POSTRES"
   }
 ]
