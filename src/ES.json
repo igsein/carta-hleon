@@ -163,7 +163,7 @@
   },
   {
     "NAME": "LOMO CON QUESO",
-    "PRICE": 5,
+    "PRICE": "5",
     "TYPE": "BOCADILLOS",
     "ALERG": [7, 9]
   },
