@@ -11,6 +11,12 @@
     "TYPE": "TOASTS",
     "ALERG": [7, 12]
   },
+{
+    "NAME": "Parisian with Egg",
+    "PRICE": 2.5,
+    "TYPE": "TOASTS",
+    "ALERG": [7, 12]
+  },
   {
     "NAME": "Anchovy",
     "PRICE": 1.5,
@@ -31,7 +37,7 @@
   },
   {
     "NAME": "Serrano ham with tomato and oil",
-    "PRICE": 1.5,
+    "PRICE": 2,
     "TYPE": "TOASTS",
     "ALERG": [7]
   },
@@ -49,10 +55,18 @@
   },
   {
     "NAME": "Parisian ",
-    "PRICE": 1.8,
+    "PRICE": 2,
     "TYPE": "TOASTS",
     "ALERG": [7, 9]
   },
+
+{
+    "NAME": "Iberian han with egg",
+    "PRICE": 3,
+    "TYPE": "TOASTS",
+    "ALERG": [7, 9]
+  },
+
   {
     "NAME": "Pate ",
     "PRICE": 1.2,
