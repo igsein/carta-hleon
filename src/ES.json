@@ -62,6 +62,14 @@
     "TYPE": "TOSTADAS",
     "ALERG": [7, 9]
   },
+
+{
+    "NAME": "JAMÓN CON HUEVO",
+    "PRICE": 3,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7, 9]
+  },
+
   {
     "NAME": "PATÉ",
     "PRICE": 1.2,
