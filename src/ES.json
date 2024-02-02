@@ -29,6 +29,15 @@
     "TYPE": "TOSTADAS",
     "ALERG": [7]
   },
+
+
+
+{
+    "NAME": "PARISINA CON HUEVO",
+    "PRICE": 2.5,
+    "TYPE": "TOSTADAS",
+    "ALERG": [7]
+  },
   {
     "NAME": "JAMÓN SERRANO CON TOMATE Y ACEITE",
     "PRICE": 2,
