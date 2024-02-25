@@ -1,0 +1,467 @@
+[
+   {
+    "NAME": "Seuls les toasts sont servis jusqu'à 14h00.",
+    "PRICE": "",
+    "TYPE": "TOAST",
+    "STYLE": "incremento"
+  },
+  {
+    "NAME": "TUNA",
+    "PRICE": 1.5,
+    "TYPE": "TOAST",
+    "ALERG": [7, 12]
+  },
+  {
+    "NAME": "ANCHOVIE",
+    "PRICE": 1.5,
+    "TYPE": "TOAST",
+    "ALERG": [7, 12]
+  },
+  {
+    "NAME": "BACON",
+    "PRICE": 1.8,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "JAMBON IBÉRIQUE AVEC TOMATE ET HUILE D'OLIVE",
+    "PRICE": 2.5,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+
+
+
+{
+    "NAME": "PARISINA AVEC OEUF",
+    "PRICE": 2.5,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "JAMBON SERRANO À LA TOMATE ET À L'HUILE",
+    "PRICE": 2,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "LACON",
+    "PRICE": 1.8,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "BEURRE ET CONFITURE",
+    "PRICE": 1.2,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "PARISINA",
+    "PRICE": 2,
+    "TYPE": "TOAST",
+    "ALERG": [7, 9]
+  },
+
+{
+    "NAME": "JAMBON AVEC",
+    "PRICE": 3,
+    "TYPE": "TOAST",
+    "ALERG": [7, 9]
+  },
+
+  {
+    "NAME": "PATÉ",
+    "PRICE": 1.2,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "PAVO",
+    "PRICE": 1.5,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "FROMAGE (FRAIS FONDU OU AFFINÉ)",
+    "PRICE": 1.5,
+    "TYPE": "TOAST",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "TOMATES ET HUILE",
+    "PRICE": 1.2,
+    "TYPE": "TOAST",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "OMELETTE FRANÇAISE",
+    "PRICE": 1.8,
+    "TYPE": "TOAST",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "POMMES DE TERRE BROUILLÉES À L'ŒUF",
+    "PRICE": 2,
+    "TYPE": "TOAST",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "AUGMENTATION DE 0,50€ POUR CE QUE VOUS VOULEZ AJOUTER",
+    "PRICE": "",
+    "TYPE": "TOAST",
+    "STYLE": "incremento"
+  },
+
+  {
+    "NAME": "NORMAL (VIANDE, FROMAGE, LAITUE ET TOMATE)",
+    "PRICE": 4.5,
+    "TYPE": "HAMBURGERS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "NORMAL (VIANDE ET FROMAGE)",
+    "PRICE": 4,
+    "TYPE": "HAMBURGERS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "SPÉCIAL (VIANDE, FROMAGE, JAMBON, LAITUE, TOMATE, OIGNON, BACON ET OEUF)",
+    "PRICE": 6,
+    "TYPE": "HAMBURGERS",
+    "ALERG": [7, 9, 8]
+  },
+  {
+    "NAME": "PAELLA AUX FRUITS DE MER",
+    "PRICE": "",
+    "TYPE": "SUR DEMANDE",
+    "ALERG": [4, 12, 10]
+  },
+  {
+    "NAME": "COCHON DE LAIT AVEC POMMES DE TERRE AU FOUR ET SALADE",
+    "PRICE": "",
+    "TYPE": "SUR DEMANDE"
+  },
+  {
+    "NAME": "RIZ AU HOMARD",
+    "PRICE": "",
+    "TYPE": "SUR DEMANDE",
+    "ALERG": [4]
+  },
+  {
+    "NAME": "RIZ À LA PROIE IBÉRIQUE",
+    "PRICE": "",
+    "TYPE": "SUR DEMANDE"
+  },
+  {
+    "NAME": "RIZ AUX CREVETTES",
+    "PRICE": "",
+    "TYPE": "SUR DEMANDE",
+    "ALERG": [4]
+  },
+  {
+    "NAME": "BACON AU FROMAGE",
+    "PRICE": 5,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7, 9]
+  },
+
+  {
+    "NAME": "JAMBON IBÉRIEN",
+    "PRICE": 6,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "JAMBON SERRANO",
+    "PRICE": 4,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "LONGE AVEC FROMAGE",
+    "PRICE": "5",
+    "TYPE": "COLLATIONS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "POITRINE DE POULET",
+    "PRICE": 5,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "OMELETTE FRANÇAISE",
+    "PRICE": 4,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "OMELETTE FRANÇAISE (JAMBON ET FROMAGE)",
+    "PRICE": 4.5,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "SERRANITO(LONGE, FROMAGE, TOMATE, POIVRONS ET JAMBON)",
+    "PRICE": 6,
+    "TYPE": "COLLATIONS",
+    "ALERG": [7, 9]
+  },
+
+  {
+    "NAME": "AUGMENTATION DE 0,50€ POUR CE QUE VOUS VOULEZ AJOUTER",
+    "PRICE": "",
+    "TYPE": "COLLATIONS",
+    "STYLE": "incremento"
+  },
+
+  {
+    "NAME": "NORMAL(JAMBON ET FROMAGE)",
+    "PRICE": 3.5,
+    "TYPE": "SANDWICHS",
+    "ALERG": [7, 9]
+  },
+  {
+    "NAME": "VÉGÉTAL",
+    "PRICE": 3.5,
+    "TYPE": "SANDWICHS",
+    "ALERG": [7, 9, 8]
+  },
+  {
+    "NAME": "SPÉCIAL (JAMBON, FROMAGE, LAITUE, TOMATE, BACON ET OEUF)",
+    "PRICE": 6,
+    "TYPE": "SANDWICHS",
+    "ALERG": [7, 9, 8]
+  },
+  {
+    "NAME": "AUGMENTATION DE 0,50 € POUR CE QUE VOUS VOULEZ AJOUTER",
+    "PRICE": "",
+    "TYPE": "SANDWICHS",
+    "STYLE": "incremento"
+  },
+  {
+    "NAME": "CALAMARS, CROQUETTES ET SALADE",
+    "PRICE": 8,
+    "TYPE": "PLATS COMBINÉS",
+    "ALERG": [7, 9, 10]
+  },
+  {
+    "NAME": "STEAKS D'ALOYAU, POIVRONS, OEUF AU PLAT ET FRITES",
+    "PRICE": 9,
+    "TYPE": "PLATS COMBINÉS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "FILETS DE POULET GRILLÉS, BACON, FRITES ET ŒUF AU PLAT",
+    "PRICE": 9,
+    "TYPE": "PLATS COMBINÉS",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "SAUCISSES DE POULET, ŒUF AU PLAT ET FRITES",
+    "PRICE": 8,
+    "TYPE": "PLATS COMBINÉS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "OMELETTE FRANÇAISE AVEC JAMBON ET SALADE",
+    "PRICE": 7,
+    "TYPE": "PLATS COMBINÉS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "DÉGUSTATION DE PORC",
+    "PRICE": 10,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "CHURRITOS DE POULET AVEC SAUCE MOUTARDE ET MIEL",
+    "PRICE": 10,
+    "TYPE": "RATIONS",
+    "ALERG": [7, 8, 11]
+  },
+  {
+    "NAME": "ŒUFS BROUILLÉS AU JAMBON IBÉRIQUE",
+    "PRICE": 11,
+    "TYPE": "RATIONS",
+    "ALERG": [8]
+  },
+  {
+    "NAME": "POMMES DE TERRE AU BACON ET 4 FROMAGES",
+    "PRICE": 9,
+    "TYPE": "RATIONS",
+    "ALERG": [9]
+  },
+  {
+    "NAME": "SAUCISSES FRAÎCHES",
+    "PRICE": 9,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "CARRILLERAS",
+    "PRICE": 12,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "CABILLAUD AVEC DAURADE",
+    "PRICE": 11,
+    "TYPE": "RATIONS",
+    "ALERG": [8, 12]
+  },
+  {
+    "NAME": "ASSORTIMENT DE CROQUETTES",
+    "PRICE": 9,
+    "TYPE": "RATIONS",
+    "ALERG": [7, 8]
+  },
+  {
+    "NAME": "AILES DE POULET",
+    "PRICE": 9,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "ASSORTIMENT DE CHARCUTERIE IBÉRIQUE (JAMBON, ÉCHINE ET FROMAGE)",
+    "PRICE": 18,
+    "TYPE": "RATIONS",
+    "ALERG": [9]
+  },
+  {
+    "NAME": "BEIGNETS DE POISSON FRITS",
+    "PRICE": 13,
+    "TYPE": "RATIONS",
+    "ALERG": [12]
+  },
+  {
+    "NAME": "SÉPIA",
+    "PRICE": 13,
+    "TYPE": "RATIONS",
+    "ALERG": [10]
+  },
+  {
+    "NAME": "SQUID",
+    "PRICE": 10,
+    "TYPE": "RATIONS",
+    "ALERG": [10]
+  },
+  {
+    "NAME": "SALADE MIXTE",
+    "PRICE": 6,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "POMMES DE TERRE FRITES",
+    "PRICE": 5,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "Muselière de PORC FRIT",
+    "PRICE": 10,
+    "TYPE": "RATIONS"
+  },
+  {
+    "NAME": "PORTION DE PAIN",
+    "PRICE": 1.2,
+    "TYPE": "RATIONS",
+    "ALERG": [7]
+  },
+  {
+    "NAME": "CARPACCIO DE BŒUF AU FOIE GRAS",
+    "PRICE": 12,
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+  {
+    "NAME": "SACHETS DE CÈPES OU DE FRUITS DE MER",
+    "PRICE": 10,
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ",
+    "ALERG": [4]
+  },
+  {
+    "NAME": "SALADE DE PERDRIX",
+    "PRICE": 12,
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+  {
+    "NAME": "PREMIUM IBÉRIEN",
+    "PRICE": 18,
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+  {
+    "NAME": "PLAT IBÉRIEN",
+    "PRICE": 20,
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+  {
+    "NAME": "CUTLET DE VEAU",
+    "PRICE": "",
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+  {
+    "NAME": "STEAK D'ALOYAU DE VEAU",
+    "PRICE": "",
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+  {
+    "NAME": "ENTRECOTE DE VEAU",
+    "PRICE": "",
+    "TYPE": "SOUS RÉSERVE DE DISPONIBILITÉ"
+  },
+
+  {
+    "NAME": "Mort au chocolat",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Tarte aux pommes avec dulce de leche et cannelle",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Red Velvet",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Gâteau au fromage artisanal",
+    "PRICE": "4.50",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Barre de brownie aux noix",
+    "PRICE": "3",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Mini Carolina",
+    "PRICE": "3",
+    "TYPE": "DESSERTS"
+  },
+
+  {
+    "NAME": "Crème anglaise",
+    "PRICE": "2.50",
+    "TYPE": "DESSERTS"
+  },
+
+  {
+    "NAME": "Coulant",
+    "PRICE": "3",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Coupe de chocolat",
+    "PRICE": "5",
+    "TYPE": "DESSERTS"
+  },
+  {
+    "NAME": "Coupe de fruits rouges",
+    "PRICE": "5",
+    "TYPE": "DESSERTS"
+  },
+{
+    "NAME": "Crème glacée KitKat",
+    "PRICE": "3.50",
+    "TYPE": "DESSERTS"
+  }
+]

@@ -1,13 +1,16 @@
 import { useState, useEffect, useRef } from "react";
 import EN from "../EN.json";
 import ES from "../ES.json";
+import FR from "../FR.json";
 import alergenos from "../alergenos/alerjenos.json";
+import back from "../assets/back.png"
 import logo from "../assets/logo3.png";
 import "../App.css";
 import up from "../assets/up.png";
 
 function Menu({ intl }) {
   const [isVisible, setIsVisible] = useState(false);
+  const [headerButton,setHeaderButton] = useState("")
   const [count, setCount] = useState(0);
   const [carta, setCarta] = useState("");
   const [viewAddText, setViewAddText] = useState(false);
@@ -74,7 +77,20 @@ function Menu({ intl }) {
  
   useEffect(() => {
     if (intl) {
-      intl === "ES" ? setCarta(ES) : setCarta(EN);
+
+      switch (intl) {
+        case 'ES':
+          return setCarta(ES)
+          case 'EN':
+            return setCarta(EN)
+
+            case 'FR':
+            return setCarta(FR)
+             
+ 
+      }
+
+ 
     }
   }, [intl]);
 
@@ -108,7 +124,12 @@ function Menu({ intl }) {
 
   const additionalText = () => {};
   return (
-    <div className="flip-scale-up-hor">
+
+    <>
+    <div>
+    <img src={back} className="backButton"  onClick={()=> location.reload()} /> 
+    </div>
+     <div className="flip-scale-up-hor">
       <img src={logo} className="logo" /> 
       <div id="home">
         {typesProds &&
@@ -129,6 +150,7 @@ function Menu({ intl }) {
         <tr className="separator">
           {typesProds
             ? typesProds.map((prods, i) => {
+            
                 return (
                   <>
                     <tr key={i} id={prods}>
@@ -140,6 +162,7 @@ function Menu({ intl }) {
                       ? carta
                           .filter((cart) => cart.TYPE === prods)
                           .map((prod, i) => {
+                            
                             const tipo = prod.TYPE;
                             return (
                               <tr key={i} className="tr-menu">
@@ -187,6 +210,8 @@ function Menu({ intl }) {
         </tr>
       </table>
     </div>
+    </>
+   
   );
 }
 
