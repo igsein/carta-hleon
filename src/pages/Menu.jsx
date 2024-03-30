@@ -284,7 +284,7 @@ function Menu({ intl, setAlergens }) {
                                         <div>
                                           <img
                                             className="prod-pic"
-                                            src={`/assets/prods/${prod.PIC}.jpg`}
+                                            src={`./assets/prods/${prod.PIC}.jpg`}
                                           />
                                         </div>
                                       )}
