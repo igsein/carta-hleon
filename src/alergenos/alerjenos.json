@@ -1,71 +1,199 @@
 [
     {
-      "NAME": "ALTRAMUCES",
+      "NAME": {
+
+        "es": "ALTRAMUCES",
+        "en": "LUPINS",
+        "fr": "LUPINS"
+      },
+      
+      
+      
+      
+      
+      
+  
       "ID": 1,
       "PIC": "./assets/altramuces.png"
     },
     {
-        "NAME": "APIO",
+        "NAME": "",
+
+
+
+
+
+
+
+
+        "NAME": {
+
+          "es": "APIO",
+          "en": "CELERY",
+          "fr": "CÉLERI"
+        },
+        
         "ID": 2,
         "PIC": "./assets/apio.png"
       },
       {
-        "NAME": "CACAHUETES",
+ 
+
+
+
+        "NAME": {
+
+          "es": "CACAHUETES",
+          "en": "PEANUTS",
+          "fr": "CACAHUÈTES"
+        },
+
+
+
+
+
         "ID": 3,
         "PIC": "./assets/cacahuetes.png"
       },
       {
-        "NAME": "CRUSTÁCEOS",
+ 
+
+        "NAME": {
+
+          "es": "CRUSTÁCEOS",
+          "en": "CRUSTACEANS",
+          "fr": "CRUSTACÉS"
+        },
+
+
+
+
+
+
         "ID": 4,
         "PIC": "./assets/crustaceos.png"
       },
       {
-        "NAME": "DIÓXIDO DE AZUFRE Y SULFITOS",
+ 
+
+        "NAME": {
+
+          "es": "DIÓXIDO DE AZUFRE Y SULFITOS",
+          "en": "SULPHUR DIOXIDE AND SULPHITES",
+          "fr": "ANHYDRIDE SULFUREUX ET"
+        },
+
+
+
+
         "ID": 5,
         "PIC": "./assets/dioxidoazufresulfitos.png"
       },
       {
-        "NAME": "FRUTOS SECOS",
+ 
+        "NAME": {
+
+          "es": "FRUTOS SECOS",
+          "en": "NUTS", 
+          "fr": "NOIX"
+        },
+
+
+
+
+
+
         "ID": 6,
         "PIC": "./assets/frutossecos.png"
       },
       {
-        "NAME": "GLÚTEN",
+ 
+
+
+        "NAME": {
+
+          "es": "GLÚTEN",
+          "en": "GLUTEN", 
+          "fr": "GLUTEN"
+        },
+
+
+
+
+
         "ID": 7,
         "PIC": "./assets/gluten.png"
       },
       {
-        "NAME": "HUEVO",
+       
+        "NAME": {
+
+          "es": "HUEVO",
+          "en": "EGG", 
+          "fr": "OEUF"
+        },
+
         "ID": 8,
         "PIC": "./assets/huevo.png"
       },
       {
-        "NAME": "LÁCTEOS",
+         
+        "NAME": {
+
+          "es": "LÁCTEOS",
+          "en": "DAIRY", 
+          "fr": "LAITERIE"
+        },
         "ID": 9,
         "PIC": "./assets/lacteos.png"
       },
       {
-        "NAME": "MOLUSCOS",
+        "NAME": {
+
+          "es": "MOLUSCOS",
+          "en": "MOLLUSCS", 
+          "fr": "MOLLUSQUES"
+        },
         "ID": 10,
         "PIC": "./assets/moluscos.png"
       },
       {
-        "NAME": "MOSTAZA",
+        "NAME": {
+
+          "es": "MOSTAZA",
+          "en": "MUSTARD", 
+          "fr": "MOUTARDE"
+        },
         "ID": 11,
         "PIC": "./assets/mostaza.png"
       },
       {
-        "NAME": "PESCADO",
+        "NAME": {
+
+          "es": "PESCADO",
+          "en": "FISH", 
+          "fr": "POISSON"
+        },
         "ID": 12,
         "PIC": "./assets/pescado.png"
       },
       {
-        "NAME": "SÉSAMO",
+        "NAME": {
+
+          "es": "SÉSAMO",
+          "en": "SESAME", 
+          "fr": "SÉSAME"
+        },
         "ID": 13,
         "PIC": "./assets/sesamo.png"
       },
       {
-        "NAME": "SOJA",
+        "NAME": {
+
+          "es": "SOJA",
+          "en": "SOYBEAN", 
+          "fr": "SOJA"
+        },
         "ID": 14,
         "PIC": "./assets/soja.png"
       }

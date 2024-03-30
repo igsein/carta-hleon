@@ -4,9 +4,11 @@ import Spain from "../assets/locale/es.png";
 import england from "../assets/locale/en.png";
 import fr from "../assets/locale/fr.png";
 import Menu from "./Menu";
+import Alergens from "./Alergens"
 
 const Home = () => {
   const [intl, setIntl] = useState("");
+  const [alergens,setAlergens]= useState(false)
 
   return (
     <>
@@ -29,24 +31,26 @@ const Home = () => {
               src={Spain}
               alt=""
               className="img-countries"
-              onClick={() => setIntl("ES")}
+              onClick={() => setIntl("es")}
             />
             <img
               src={england}
               alt=""
               className="img-countries"
-              onClick={() => setIntl("EN")}
+              onClick={() => setIntl("en")}
             />
             <img
               src={fr}
               alt=""
               className="img-countries"
-              onClick={() => setIntl("FR")}
+              onClick={() => setIntl("fr")}
             />{" "}
           </div>
         </div>
       ) : (
-        <Menu intl={intl} />
+        alergens ?
+        <Alergens intl={intl} setAlergens={setAlergens} /> :
+        <Menu intl={intl} setAlergens={setAlergens} />
       )}
     </>
   );
