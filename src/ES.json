@@ -1,6 +1,6 @@
 [
   {
-    "NAME": "Sólo se sirven tostadas hasta las 14:00h",
+    "NAME": "Sólo se sirven tostadas hasta las 12:00h",
     "PRICE": "",
     "TYPE": "TOSTADAS",
     "STYLE": "incremento"
@@ -192,13 +192,13 @@
   },
   {
     "NAME": "TORTILLA FRANCESA",
-    "PRICE": 4,
+    "PRICE": 4.5,
     "TYPE": "BOCADILLOS",
     "ALERG": [7]
   },
   {
     "NAME": "TORTILLA FRANCESA(JAMÓN YORK Y QUESO)",
-    "PRICE": 4.5,
+    "PRICE": 5,
     "TYPE": "BOCADILLOS",
     "ALERG": [7]
   },
@@ -242,31 +242,31 @@
   },
   {
     "NAME": "CALAMARES, CROQUETAS Y ENSALADA",
-    "PRICE": 8,
+    "PRICE": 10,
     "TYPE": "PLATOS COMBINADOS",
     "ALERG": [7, 9, 10]
   },
   {
     "NAME": "FILETES DE LOMO, PIMIENTOS, HUEVO FRITO Y PATATAS FRITAS",
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": "PLATOS COMBINADOS",
     "ALERG": [8]
   },
   {
     "NAME": "FILETES DE POLLO A LA PLANCHA, BACON, PATATAS FRITAS Y HUEVO FRITO",
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": "PLATOS COMBINADOS",
     "ALERG": [7, 8]
   },
   {
     "NAME": "SALCHICAS DE POLLO,HUEVO FRITO Y PATATAS FRITAS",
-    "PRICE": 8,
+    "PRICE": 10,
     "TYPE": "PLATOS COMBINADOS",
     "ALERG": [8]
   },
   {
     "NAME": "TORTILLA FRANCESA ACOMPAÑADA DE JAMÓN YORK Y ENSALADA",
-    "PRICE": 7,
+    "PRICE": 9,
     "TYPE": "PLATOS COMBINADOS",
     "ALERG": [8]
   },
@@ -283,24 +283,24 @@
   },
   {
     "NAME": "HUEVOS ROTOS CON JAMÓN IBÉRICO",
-    "PRICE": 11,
+    "PRICE": 12,
     "TYPE": "RACIONES",
     "ALERG": [8]
   },
   {
     "NAME": "PATATAS CON BACON Y 4 QUESOS",
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": "RACIONES",
     "ALERG": [9]
   },
   {
     "NAME": "SALCHICHAS FRESCAS",
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": "RACIONES"
   },
   {
     "NAME": "CARRILLERAS",
-    "PRICE": 12,
+    "PRICE": 14,
     "TYPE": "RACIONES"
   },
   {
@@ -311,13 +311,13 @@
   },
   {
     "NAME": "SURTIDO DE CROQUETAS",
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": "RACIONES",
     "ALERG": [7, 8]
   },
   {
     "NAME": "ALITAS DE POLLO",
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": "RACIONES"
   },
   {
@@ -372,13 +372,13 @@
   },
   {
     "NAME": "SAQUITOS DE BOLETUS O MARISCO",
-    "PRICE": 10,
+    "PRICE": 12,
     "TYPE": "SEGÚN DISPONIBILIDAD",
     "ALERG": [4]
   },
   {
     "NAME": "ENSALADA DE PERDIZ",
-    "PRICE": 12,
+    "PRICE": 13,
     "TYPE": "SEGÚN DISPONIBILIDAD"
   },
   {
