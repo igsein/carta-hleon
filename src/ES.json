@@ -536,7 +536,7 @@
       "en": "Normal (york ham and cheese)",
       "fr": "NORMAL(JAMBON ET FROMAGE)"
     },
-
+"PIC": "sandwich_normal",
     "PRICE": 3.5,
     "TYPE": {
       "es": "SANDWICHES",
@@ -813,7 +813,7 @@
       "en": "Fried fish",
       "fr": "BEIGNETS DE POISSON FRITS"
     },
-    "PIC": "fritura_pescados",
+    "PIC": "fritura_pescaditos",
 
     "PRICE": 13,
     "TYPE": {
