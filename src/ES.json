@@ -706,7 +706,7 @@
       "en": "Scrambled eggs with Iberian ham",
       "fr": "ŒUFS BROUILLÉS AU JAMBON IBÉRIQUE"
     },
-
+   "PIC": "huevos_rotos_iberico",
     "PRICE": 12,
     "TYPE": {
       "es": "RACIONES",
