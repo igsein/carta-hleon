@@ -277,7 +277,7 @@
       "fr": "NORMAL (VIANDE, FROMAGE, LAITUE ET TOMATE)"
     },
 
-    "PRICE": 4.5,
+    "PRICE": 5,
     "TYPE": {
       "es": "HAMBURGUESAS",
       "en": "BURGERS",
@@ -293,7 +293,7 @@
       "fr": "NORMAL (VIANDE ET FROMAGE)"
     },
 
-    "PRICE": 4,
+    "PRICE": 4.5,
     "TYPE": {
       "es": "HAMBURGUESAS",
       "en": "BURGERS",
