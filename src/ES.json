@@ -245,7 +245,7 @@
       "en": "Scrambled potatoes with egg",
       "fr": "POMMES DE TERRE BROUILLÉES À L'ŒUF"
     },
-
+"PIC": "tostada_revuelto",
     "PRICE": 2,
     "TYPE": {
       "es": "TOSTADAS",
@@ -322,7 +322,7 @@
       "en": "seafood paella",
       "fr": "PAELLA AUX FRUITS DE MER"
     },
-
+ "PIC": "paella",
     "PRICE": "",
     "TYPE": {
       "es": "POR ENCARGO",
