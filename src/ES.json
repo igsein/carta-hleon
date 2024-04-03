@@ -1022,7 +1022,7 @@
       "en": "Death By Chocolate",
       "fr": "Mort au chocolat"
     },
-
+  "PIC": "muerchoco",
     "PRICE": "4.50",
     "TYPE": {
       "es": "POSTRES",
@@ -1036,7 +1036,7 @@
       "en": "Apple pie with dulce de leche and cinnamon",
       "fr": "Tarte aux pommes avec dulce de leche et cannelle"
     },
-
+  "PIC": "tartamanzana",
     "PRICE": "4.50",
     "TYPE": {
       "es": "POSTRES",
@@ -1050,7 +1050,7 @@
       "en": "Red Velvet",
       "fr": "Red Velvet"
     },
-
+  "PIC": "velvet",
     "PRICE": "4.50",
     "TYPE": {
       "es": "POSTRES",
@@ -1078,7 +1078,7 @@
       "en": "Brownie ingot with walnuts",
       "fr": "Barre de brownie aux noix"
     },
-
+  "PIC": "brownie",
     "PRICE": "3",
     "TYPE": {
       "es": "POSTRES",
@@ -1092,7 +1092,7 @@
       "en": "Mini Carolina",
       "fr": "Mini Carolina"
     },
-
+  "PIC": "minicarolina",
     "PRICE": "3",
     "TYPE": {
       "es": "POSTRES",
@@ -1150,7 +1150,7 @@
       "en": "Red Fruit Cup",
       "fr": "Coupe de fruits rouges"
     },
-
+  
     "PRICE": "5",
     "TYPE": {
       "es": "POSTRES",
@@ -1164,7 +1164,7 @@
       "en": "KitKat Ice Cream",
       "fr": "Crème glacée KitKat"
     },
-
+  "PIC": "kitkat",
     "PRICE": "3.50",
     "TYPE": {
       "es": "POSTRES",
