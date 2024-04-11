@@ -453,6 +453,31 @@
     },
     "ALERG": [7, 9]
   },
+
+
+{
+    "NAME": {
+      "es": "CALAMARES",
+      "en": "SQUID",
+      "fr": "CALMAR"
+    },
+
+    "PRICE": "6",
+    "TYPE": {
+      "es": "BOCADILLOS",
+      "en": "SNACK",
+      "fr": "COLLATIONS"
+    },
+    "ALERG": [10]
+  },
+
+
+
+
+
+
+
+  
   {
     "NAME": {
       "es": "PECHUGA DE POLLO",
