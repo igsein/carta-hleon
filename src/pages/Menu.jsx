@@ -8,7 +8,7 @@ import logo from "../assets/logo3.png";
 import "../App.css";
 import up from "../assets/up.png";
 
-function Menu({ intl, setAlergens }) {
+function Menu({ intl, setAlergens, setResize }) {
   const [isVisible, setIsVisible] = useState(false);
   const [headerButton, setHeaderButton] = useState("");
   const [count, setCount] = useState(0);
@@ -16,6 +16,8 @@ function Menu({ intl, setAlergens }) {
   const [viewAddText, setViewAddText] = useState(false);
   const [typesProds, setTypesProds] = useState("");
   const mainRef = useRef(null);
+  const [numberElements, setNumberElements] = useState()
+  const [printMode,setPrintMode] = useState(false)
   const [scrollTo, setScrollTo] = useState("none");
   const prevScrollPos = useRef(0);
   function addZeroes(num) {
@@ -35,9 +37,24 @@ function Menu({ intl, setAlergens }) {
   useEffect(() => {
     if (ES) {
       setCarta(ES);
+      allItems(ES)
     }
   }, [ES]);
 
+  const printPage = ()=>{
+    setPrintMode(true)
+    setResize(true)
+    setTimeout(() => {
+      
+      window.print();
+    }, 200);
+    setTimeout(() => {
+      
+      setPrintMode(false)
+      setResize(false)
+    }, 300);
+
+  }
   useEffect(() => {
     const toggleVisibility = () => {
       const currentScrollPos = window.pageYOffset;
@@ -59,8 +76,10 @@ function Menu({ intl, setAlergens }) {
   }, [isVisible]);
   const capitalizeWord = (text) => {
     const lower = text.toLowerCase();
+    console.log(lower)
 
-    return capitalizeFirstLetter(lower);
+    const stringModificado = lower.replace(/(.{30})/g, "$1\n");
+    return capitalizeFirstLetter(stringModificado);
   };
 
   function capitalizeFirstLetter(string) {
@@ -79,24 +98,251 @@ function Menu({ intl, setAlergens }) {
     }
   }, [carta]);
 
-  /*  useEffect(() => {
-    if (intl) {
 
-      switch (intl) {
-        case 'es':
-          return setCarta(ES)
-          case 'en':
-            return setCarta(EN)
-
-            case 'FR':
-            return setCarta(FR)
-             
- 
-      }
+  const sliceCarta = ( start, end  ) =>{
 
  
-    }
-  }, [intl]); */
+
+    const allProducts = typesProds.map((prods, i) => {
+      return (
+        <>
+          <tr key={i} id={prods} >
+            <td>
+              <h1 style={{fontSize: '1rem', marginTop:       printMode && '-1%', marginBottom:       printMode && '-2%'          }} >{prods}</h1>
+            </td>
+          </tr>
+          {carta
+            ? carta
+                .filter((cart) => cart.TYPE[intl] === prods)
+                .map((prod, i) => {
+                  const tipo = prod.TYPE[intl];
+                  return (
+                    <tr key={i}>
+
+                      {printMode ?
+                      
+                     <div
+                          className={
+                            prod.STYLE !== "incremento" &&
+                            "container-prod-without-image-hidden"
+                          }
+                        >
+                          <div>
+                            <h2 className="h2-without-image-print">
+                              {!prod.DESCRIPTION ? (
+                                <td
+                                  className={
+                                    prod.STYLE ? prod.STYLE : ""
+                                  }
+                                >
+                                  {tipo === "PLATOS COMBINADOS"
+                                    ? `${i + 1}. `
+                                    : ""}
+                                  {capitalizeWord(prod.NAME[intl])}
+                                </td>
+                              ) : (
+                                <td>
+                                  {tipo === "PLATOS COMBINADOS"
+                                    ? `${i + 1}. `
+                                    : ""}
+                                  {capitalizeWord(prod.NAME[intl])}
+                                  {setSelectAlergeno(prod.ALERG)}
+                                  <span>
+                                    {" "}
+                                    {capitalizeWord(
+                                      prod.DESCRIPTION
+                                    )}
+                                  </span>
+                                </td>
+                              )}
+                            </h2>
+                          </div>
+
+                          <div>
+                            <h3 style={{fontSize: '0.5rem'}}>
+                              {" "}
+                              {addZeroes(prod.PRICE)}
+                              {prod.PRICE ? "€" : ""}
+                            </h3>
+                          </div>
+                          <div className="container-alergenos-without-images">
+                            <div className="alergenos">
+                              {" "}
+                              {setSelectAlergeno(prod.ALERG)}
+                            </div>
+ 
+                          </div>
+                        </div>
+                     :
+                     
+
+
+
+
+
+
+
+                     prod.PIC ? (
+                      <div
+                        className={
+                          prod.STYLE !== "incremento" &&
+                          "container-prod hidden"
+                        }
+                      >
+                        <div>
+                          <h2>
+                            {!prod.DESCRIPTION ? (
+                              <td
+                                className={
+                                  prod.STYLE ? prod.STYLE : ""
+                                }
+                              >
+                                {tipo === "PLATOS COMBINADOS"
+                                  ? `${i + 1}. `
+                                  : ""}
+                                {capitalizeWord(prod.NAME[intl])}
+                              </td>
+                            ) : (
+                              <td>
+                                {tipo === "PLATOS COMBINADOS"
+                                  ? `${i + 1}. `
+                                  : ""}
+                                {capitalizeWord(prod.NAME[intl])}
+                                {setSelectAlergeno(prod.ALERG)}
+                                <span>
+                                  {" "}
+                                  {capitalizeWord(
+                                    prod.DESCRIPTION
+                                  )}
+                                </span>
+                              </td>
+                            )}
+                          </h2>
+                        </div>
+                        {prod.PIC && printMode  && (
+                          <div>
+                            <img
+                              className="prod-pic"
+                              src={`./assets/prods/${prod.PIC}.jpg`}
+                            />
+                          </div>
+                        )}
+
+                        <div>
+                          <h3 style={{fontSize: '0.5rem'}}>
+                            {" "}
+                            {addZeroes(prod.PRICE)}
+                            {prod.PRICE ? "€" : ""}
+                          </h3>
+                        </div>
+                        <div className="container-alergenos">
+                          <div className="alergenos">
+                            {" "}
+                            {setSelectAlergeno(prod.ALERG)}
+                          </div>
+                          {/* <div className="alergenos">
+                            {nameAlerg(prod.ALERG)}{" "}
+                          </div> */}
+                        </div>
+                      </div>
+                    ) : (
+                      <div
+                        className={
+                          prod.STYLE !== "incremento" &&
+                          "container-prod-without-image-hidden"
+                        }
+                      >
+                        <div>
+                          <h2 className="h2-without-image-print">
+                            {!prod.DESCRIPTION ? (
+                              <td
+                                className={
+                                  prod.STYLE ? prod.STYLE : ""
+                                }
+                              >
+                                {tipo === "PLATOS COMBINADOS"
+                                  ? `${i + 1}. `
+                                  : ""}
+                                {capitalizeWord(prod.NAME[intl])}
+                              </td>
+                            ) : (
+                              <td>
+                                {tipo === "PLATOS COMBINADOS"
+                                  ? `${i + 1}. `
+                                  : ""}
+                                {capitalizeWord(prod.NAME[intl])}
+                                {setSelectAlergeno(prod.ALERG)}
+                                <span>
+                                  {" "}
+                                  {capitalizeWord(
+                                    prod.DESCRIPTION
+                                  )}
+                                </span>
+                              </td>
+                            )}
+                          </h2>
+                        </div>
+
+                        <div>
+                          <h3 style={{fontSize: '0.5rem'}}>
+                            {" "}
+                            {addZeroes(prod.PRICE)}
+                            {prod.PRICE ? "€" : ""}
+                          </h3>
+                        </div>
+                        <div className="container-alergenos-without-images">
+                          <div className="alergenos">
+                            {" "}
+                            {setSelectAlergeno(prod.ALERG)}
+                          </div>
+
+                        </div>
+                      </div>
+                    )}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                     
+               
+                     </tr>
+                  ); 
+                })
+            : ""}
+
+ 
+        </>
+      );
+    }) 
+    
+    console.log(allProducts.length)
+ 
+   
+     return   allProducts.slice(start,end)
+
+
+
+
+
+  }
+ 
 
   const deleteDuplicates = (array) => {
     var uniq = {};
@@ -184,17 +430,50 @@ function Menu({ intl, setAlergens }) {
       alerg: "Allergènes",
     },
   };
+
+
+ 
+
+
+  const allItems = (ES) =>{
+
+    let numberData =  (ES.length / 3).toFixed(2)
+ 
+    if(!Number.isInteger(numberData)){
+
+      numberData ++
+
+      let numeroSinDecimales = Math.floor(numberData);
+
+      const first =numeroSinDecimales / 3
+ 
+       setNumberElements(first /3)
+     }
+   }
+
+console.log(intl)
+
+   const textPrint = {
+
+    es: 'Imprimir carta',
+    en: 'Print menu',
+    fr: 'Imprimer le menu'
+   }
+ 
   return (
     <>
-      <div className="top-container">
-        <button className="button-two" onClick={() => location.reload()}
-        style={{fontWeight: 'bolder'}}
+      <div className={ printMode ?"top-container hidden" : "top-container " }  >
+        <button
+          className="button-two"
+          onClick={() => location.reload()}
+          style={{ fontWeight: "bolder" }}
         >
           {menuTexts[intl].home}
         </button>
         <button className="button-two" onClick={() => setAlergens(true)}>
           {menuTexts[intl].alerg}
         </button>
+        <button  className="button-two" onClick={()=> printPage()}  >{textPrint[intl]}</button>
         {/*        <img
           src={back}
           style={{height: '50px' }}
@@ -204,13 +483,35 @@ function Menu({ intl, setAlergens }) {
       </div>
       <div className="flip-scale-up-hor">
         <img src={logo} className="logo" />
-        <div id="home">
-          {typesProds &&
+        <div id="home"   className={printMode &&  "hidden"}   style={{fontSize:  printMode && '1rem' }}>
+          {typesProds ?
+          
+          
+          
+          
+          
+          
+          
+          
+          printMode ?
+
+
             typesProds.map((prod) => (
               <button className="button">
                 <a href={`#${prod}`}>{prod}</a>
               </button>
-            ))}
+            )).slice(1,9)
+            
+            :
+            typesProds.map((prod) => (
+              <button className="button">
+                <a href={`#${prod}`}>{prod}</a>
+              </button>
+            ))
+
+
+            : ""
+            }
         </div>
         <a href="#">
           {" "}
@@ -225,7 +526,35 @@ function Menu({ intl, setAlergens }) {
           )}
         </a>
 
-        <table ref={mainRef} style={{ width: "100%" }}>
+          { printMode ?  
+          
+          
+          <div className="printer-elements">
+          <div>
+            <table ref={mainRef} style={{ width: "100%" }}>
+              <tr className="separator">
+              {typesProds && sliceCarta(0, 3)}
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table ref={mainRef} style={{ width: "100%" }}>
+              <tr className="separator">
+                {typesProds && sliceCarta(3, 6)}
+              </tr>
+            </table>
+          </div>
+          <div>
+            <table ref={mainRef} style={{ width: "100%"  }}>
+              <tr className="separator">
+                {typesProds &&
+                  sliceCarta(6  , 11)}
+              </tr>
+            </table>
+          </div>  
+        </div>
+           :          
+           <table ref={mainRef} style={{ width: "100%" }}>
           <tr className="separator">
             {typesProds
               ? typesProds.map((prods, i) => {
@@ -378,7 +707,8 @@ function Menu({ intl, setAlergens }) {
               : ""}
           </tr>
         </table>
-      </div>
+           }
+       </div>
     </>
   );
 }

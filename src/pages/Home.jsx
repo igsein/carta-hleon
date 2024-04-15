@@ -6,7 +6,7 @@ import fr from "../assets/locale/fr.png";
 import Menu from "./Menu";
 import Alergens from "./Alergens"
 
-const Home = () => {
+const Home = ({setResize}) => {
   const [intl, setIntl] = useState("");
   const [alergens,setAlergens]= useState(false)
 
@@ -50,7 +50,7 @@ const Home = () => {
       ) : (
         alergens ?
         <Alergens intl={intl} setAlergens={setAlergens} /> :
-        <Menu intl={intl} setAlergens={setAlergens} />
+        <Menu intl={intl} setAlergens={setAlergens} setResize={setResize} />
       )}
     </>
   );
