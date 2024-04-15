@@ -7,11 +7,7 @@ const App = () => {
   return (
     <div
  
-   style={{marginTop: '-2%'}}
-    
-    
-    
-    
+   
     
     ><Home setResize={setResize} /></div>
   )
