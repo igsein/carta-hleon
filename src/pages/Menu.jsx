@@ -473,7 +473,7 @@ console.log(intl)
         <button className="button-two" onClick={() => setAlergens(true)}>
           {menuTexts[intl].alerg}
         </button>
-       <button  className="button-two" onClick={()=> printPage()}  >{textPrint[intl]}</button>  
+      {/*  <button  className="button-two" onClick={()=> printPage()}  >{textPrint[intl]}</button>   */}
         {/*        <img
           src={back}
           style={{height: '50px' }}
