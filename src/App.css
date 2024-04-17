@@ -180,7 +180,7 @@ h6{
   font-size: 0.8rem;
   width: 100%;
  
-  background-color: #ffffff39;
+  background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 5px;
  
@@ -236,9 +236,9 @@ h6{
     justify-content: space-around;
     align-items: center;
     border: solid 4px rgb(236, 236, 236);
-    width: 95%;
+    width: 90%;
     height: 150%;
-    
+    margin-left: 5%;
     margin-bottom: 10%;
     padding-bottom: 5%;
     border-radius: 10px;
@@ -393,10 +393,17 @@ h6{
 
   @media print {
     @page {
+        size: A4;
         margin: 0 !important;
     }
 
     body {
+      background: repeating-linear-gradient(-45deg, #ffffff, #ffffff 2px, #f4f4f4 2px, #f4f4f4 10px);
+
         padding: 30px; /* This will act as your margin. Originally, the margin will hide the header and footer text. */
     }
+
+    header, footer {
+      display: block !important;
+  }
 }
