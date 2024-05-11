@@ -279,19 +279,17 @@ function Menu({ intl, setAlergens, setResize }) {
     return allProducts.slice(start, end);
   };
 
-
-
   const sliceCartaPrint = (start, end) => {
     const allProducts = typesProds.map((prods, i) => {
       return (
         <>
-          <tr key={i} id={prods}>
+          <tr key={i} id={`##${prods}`}>
             <td>
               <h1
                 style={{
                   fontSize: "1rem",
-                  marginTop:   "-1%",
-                  marginBottom:  "-2%",
+                  marginTop: "-1%",
+                  marginBottom: "-2%",
                 }}
               >
                 {prods}
@@ -305,53 +303,48 @@ function Menu({ intl, setAlergens, setResize }) {
                   const tipo = prod.TYPE[intl];
                   return (
                     <tr key={i}>
-                   
-                        <div
-                          className={
-                            prod.STYLE !== "incremento" &&
-                            "container-prod-without-image-hidden"
-                          }
-                        >
-                          <div>
-                            <h2 className="h2-without-image-print">
-                              {!prod.DESCRIPTION ? (
-                                <td className={prod.STYLE ? prod.STYLE : ""}>
-                                  {tipo === "PLATOS COMBINADOS"
-                                    ? `${i + 1}. `
-                                    : ""}
-                                  {capitalizeWord(prod.NAME[intl])}
-                                </td>
-                              ) : (
-                                <td>
-                                  {tipo === "PLATOS COMBINADOS"
-                                    ? `${i + 1}. `
-                                    : ""}
-                                  {capitalizeWord(prod.NAME[intl])}
-                                  {setSelectAlergeno(prod.ALERG)}
-                                  <span>
-                                    {" "}
-                                    {capitalizeWord(prod.DESCRIPTION)}
-                                  </span>
-                                </td>
-                              )}
-                            </h2>
-                          </div>
+                      <div
+                        className={
+                          prod.STYLE !== "incremento" &&
+                          "container-prod-without-image-hidden"
+                        }
+                      >
+                        <div>
+                          <h2 className="h2-without-image-print">
+                            {!prod.DESCRIPTION ? (
+                              <td className={prod.STYLE ? prod.STYLE : ""}>
+                                {tipo === "PLATOS COMBINADOS"
+                                  ? `${i + 1}. `
+                                  : ""}
+                                {capitalizeWord(prod.NAME[intl])}
+                              </td>
+                            ) : (
+                              <td>
+                                {tipo === "PLATOS COMBINADOS"
+                                  ? `${i + 1}. `
+                                  : ""}
+                                {capitalizeWord(prod.NAME[intl])}
+                                {setSelectAlergeno(prod.ALERG)}
+                                <span> {capitalizeWord(prod.DESCRIPTION)}</span>
+                              </td>
+                            )}
+                          </h2>
+                        </div>
 
-                          <div>
-                            <h3 style={{ fontSize: "0.5rem" }}>
-                              {" "}
-                              {addZeroes(prod.PRICE)}
-                              {prod.PRICE ? "€" : ""}
-                            </h3>
-                          </div>
-                          <div className="container-alergenos-without-images">
-                            <div className="alergenos">
-                              {" "}
-                              {setSelectAlergeno(prod.ALERG)}
-                            </div>
+                        <div>
+                          <h3 style={{ fontSize: "0.5rem" }}>
+                            {" "}
+                            {addZeroes(prod.PRICE)}
+                            {prod.PRICE ? "€" : ""}
+                          </h3>
+                        </div>
+                        <div className="container-alergenos-without-images">
+                          <div className="alergenos">
+                            {" "}
+                            {setSelectAlergeno(prod.ALERG)}
                           </div>
                         </div>
-                      
+                      </div>
                     </tr>
                   );
                 })
@@ -363,21 +356,12 @@ function Menu({ intl, setAlergens, setResize }) {
     return allProducts.slice(start, end);
   };
 
+  useEffect(() => {
+    if (printMode) {
+      sliceCartaPrint();
+    }
+  }, [printMode]);
 
-
-
-
-
-
-
-useEffect(() => {
-   if(printMode){
-
-    sliceCartaPrint()
-   }
-}, [printMode])
-
-  
   const deleteDuplicates = (array) => {
     var uniq = {};
     var arrFiltered = array
@@ -499,25 +483,20 @@ useEffect(() => {
           {menuTexts[intl].alerg}
         </button>
 
-    
-       
-
         <ReactToPrint
           pageStyle={pageStyle}
           trigger={() => (
             <button
-            onClick={() => {
-              setPrintMode(true);
-            }}
+              onClick={() => {
+                setPrintMode(true);
+              }}
               className="button-two"
             >
-              {textPrint[intl]}  
+              {textPrint[intl]}
             </button>
           )}
           content={() => componentRef}
         />
-
-        
       </div>
       <div className="flip-scale-up-hor">
         <img src={logo} className="logo" />
@@ -554,25 +533,25 @@ useEffect(() => {
             />
           )}
         </a>
- 
-          <div style={{display: printMode ? 'block' : 'none'}}>
+
+        <div style={{ display: printMode ? "block" : "none" }}>
           <RenderProducts
-          printMode={printMode}
-          columnOne={typesProds && sliceCartaPrint(0, 3)}
-          columnTwo={typesProds && sliceCartaPrint(3, 6)}
-          columnThree={typesProds && sliceCartaPrint(6, 11)}
-          ref={(el) => (componentRef = el)}
-        />
-          </div>
-           
+            printMode={printMode}
+            columnOne={typesProds && sliceCartaPrint(0, 3)}
+            columnTwo={typesProds && sliceCartaPrint(3, 6)}
+            columnThree={typesProds && sliceCartaPrint(6, 11)}
+            ref={(el) => (componentRef = el)}
+          />
+        </div>
 
         <table ref={mainRef} style={{ width: "100%" }}>
           <tr className="separator">
             {typesProds
               ? typesProds.map((prods, i) => {
+        
                   return (
                     <>
-                      <tr key={i} id={prods}>
+                      <tr key={i} id={`${prods}`}>
                         <td>
                           <h1>{prods}</h1>
                         </td>

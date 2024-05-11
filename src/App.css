@@ -346,9 +346,19 @@ h6{
  }
 
  .printer-elements{
- 
+  position: absolute;
+ z-index: 150;
   display: grid;
   grid-template-columns: 33% 33% 33%;
+ }
+
+ .printer-footer-elements{
+ left: 42%;
+position: absolute;
+ text-align: center;
+ bottom: 0;
+  display: flex;
+  justify-content: center;
  }
 
  .container-prod-without-image-hidden{

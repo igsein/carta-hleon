@@ -1,4 +1,5 @@
 import React from "react";
+import logo from "../assets/logo.png";
 
 class RenderProducts extends React.Component {
   constructor(props) {
@@ -7,10 +8,10 @@ class RenderProducts extends React.Component {
     this.state = {};
   }
   render() {
-     return (
+    return (
       <>
-       
-          <div className="printer-elements" >
+        <div >
+          <div className="printer-elements">
             <div>
               <table style={{ width: "100%" }}>
                 <tr className="separator">{this.props.columnOne}</tr>
@@ -27,7 +28,11 @@ class RenderProducts extends React.Component {
               </table>
             </div>
           </div>
-       
+
+          <div className="printer-footer-elements">
+            <img src={logo} />
+          </div>
+        </div>
       </>
     );
   }
