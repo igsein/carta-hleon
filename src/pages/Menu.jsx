@@ -38,7 +38,7 @@ function Menu({ intl, setAlergens, setResize }) {
 
 
   const readExcel =  async () =>{
-    const f = await (await fetch("/productos.xlsx")).arrayBuffer();   
+    const f = await (await fetch("https://igsein.github.io/carta-hleon/productos.xlsx")).arrayBuffer();   
     const workbook = XLSX.read(f, { type: "binary" });
     const sheetName = workbook.SheetNames[0];
     const sheet = workbook.Sheets[sheetName];    
