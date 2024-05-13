@@ -114,12 +114,12 @@ function Menu({ intl, setAlergens, setResize }) {
     });
   };
 
-/*   useEffect(() => {
+  useEffect(() => {
     if (ES) {
-      setCarta(formateo);
+      setCarta(ES);
       allItems(ES);
     }
-  }, [ES]); */
+  }, [ES]);  
 
   const printPage = () => {
     setPrintMode(true);
@@ -360,9 +360,9 @@ function Menu({ intl, setAlergens, setResize }) {
 
 
 
-  useEffect(() => {
+/*   useEffect(() => {
     readExcel()
-  }, [ ])
+  }, [ ]) */
   
 
   const sliceCartaPrint = (start, end) => {

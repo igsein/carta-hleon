@@ -80,7 +80,7 @@
       "en": "Parisian with Egg",
       "fr": "PARISINA AVEC OEUF"
     },
-
+    "PIC": "tostada_jamon_huevo",
     "PRICE": 2.5,
     "TYPE": {
       "es": "TOSTADAS",
@@ -154,7 +154,7 @@
       "en": "Iberian ham with egg",
       "fr": "JAMBON AVEC"
     },
-    "PIC": "tostada_jamon_huevo",
+
 
     "PRICE": 3,
     "TYPE": {
