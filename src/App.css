@@ -45,7 +45,8 @@ td{
 
 
 .alergenos-icon{
- width: 18%;
+ width: 15px;
+ margin: 5px;
 }
 .tr-menu{
   border-bottom: 2px black solid;
@@ -61,7 +62,7 @@ h1{
   text-decoration: underline;
   color: brown;
   text-align: center;
-
+  
 }
 
 .price{
@@ -144,17 +145,17 @@ font-weight:1000
 }
 
 h6{
-  margin-top: -8%;
+  margin-top: -5%;
 }
 
 .p-title{
-  margin-bottom: -9%;
+  margin-bottom: -8%;
 }
  
 
 .button {
   color: #ecf0f1;
-  font-size: 0.8rem;
+  font-size: 1rem;
   background-color: #000000;
   border: 1px solid #ececec;
   border-radius: 5px;
@@ -179,11 +180,11 @@ h6{
   color: #000000;
   font-size: 0.8rem;
   width: 100%;
- 
+  font-weight: bolder;
   background-color: #ffffff;
   border: 1px solid #000000;
   border-radius: 5px;
- 
+  font-size: 1.2rem;
   padding: 5px;
   box-shadow: 0px 6px 0px #1b1b1b;
   transition: all .1s;
@@ -219,7 +220,7 @@ h6{
   border: solid 4px rgb(236, 236, 236);
   width: 95%;
   height: 150%;
- 
+  font-size: 1.3rem;
   margin-bottom: 10%;
   padding-bottom: 5%;
   border-radius: 10px;
@@ -249,6 +250,7 @@ h6{
 .h2-without-image{
   display: flex;
   flex-direction: column;
+  font-size: 1.3rem;
  
 }
 
@@ -272,12 +274,10 @@ h6{
  }
 
  h2{
-  font-size: 1rem;
+  font-size: 1.3rem;
   text-align: center;
  }
-h6{
-  color: red
-}
+ 
  
 .alergenos-icon-without-image{
 
@@ -384,7 +384,8 @@ position: absolute;
   .h2-without-image-print{
     display: flex;
     flex-direction: column;
-    font-size: 0.5rem;
+    font-size: 0.9rem;
+    margin: -0.2%;
    
   }
 
@@ -410,11 +411,17 @@ position: absolute;
 
     body {
       background: repeating-linear-gradient(-45deg, #ffffff, #ffffff 2px, #f4f4f4 2px, #f4f4f4 10px);
-
+      
         padding: 30px; /* This will act as your margin. Originally, the margin will hide the header and footer text. */
     }
 
     header, footer {
       display: block !important;
   }
+}
+
+.images-slider{
+  display: flex;
+  align-items: center;
+  width: 100%;
 }

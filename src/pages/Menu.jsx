@@ -41,7 +41,7 @@ function Menu({ intl, setAlergens, setResize }) {
     const f = await (await fetch("/productos.xlsx")).arrayBuffer();   
     const workbook = XLSX.read(f, { type: "binary" });
     const sheetName = workbook.SheetNames[0];
-    const sheet = workbook.Sheets[sheetName];
+    const sheet = workbook.Sheets[sheetName];    
     const parsedData = XLSX.utils.sheet_to_json(sheet);    
  
 
@@ -49,7 +49,7 @@ function Menu({ intl, setAlergens, setResize }) {
 
     const formateo = parsedData.map((prods)=>{ return {
 
-
+    
  
         "NAME": {
           "es": prods.NAME_ES,
@@ -181,7 +181,7 @@ function Menu({ intl, setAlergens, setResize }) {
             <td>
               <h1
                 style={{
-                  fontSize: "1rem",
+                  fontSize: "1.5rem",
                   marginTop: printMode && "-1%",
                   marginBottom: printMode && "-2%",
                 }}
@@ -373,7 +373,7 @@ function Menu({ intl, setAlergens, setResize }) {
             <td>
               <h1
                 style={{
-                  fontSize: "1rem",
+                  fontSize: "1.5rem",
                   marginTop: "-1%",
                   marginBottom: "-2%",
                 }}
@@ -396,7 +396,7 @@ function Menu({ intl, setAlergens, setResize }) {
                         }
                       >
                         <div>
-                          <h2 className="h2-without-image-print">
+                          <h2 className="h2-without-image-print"  >
                             {!prod.DESCRIPTION ? (
                               <td className={prod.STYLE ? prod.STYLE : ""}>
                                 {tipo === "PLATOS COMBINADOS"
@@ -418,7 +418,7 @@ function Menu({ intl, setAlergens, setResize }) {
                         </div>
 
                         <div>
-                          <h3 style={{ fontSize: "0.5rem" }}>
+                          <h3 style={{ fontSize: "0.8rem" }}>
                             {" "}
                             {addZeroes(prod.PRICE)}
                             {prod.PRICE ? "€" : ""}

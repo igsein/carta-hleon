@@ -5,6 +5,7 @@ import england from "../assets/locale/en.png";
 import fr from "../assets/locale/fr.png";
 import Menu from "./Menu";
 import Alergens from "./Alergens"
+import Slider from "./Slider"
 
 const Home = ({setResize}) => {
   const [intl, setIntl] = useState("");
@@ -46,6 +47,7 @@ const Home = ({setResize}) => {
               onClick={() => setIntl("fr")}
             />{" "}
           </div>
+          <Slider />
         </div>
       ) : (
         alergens ?
