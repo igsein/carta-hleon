@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef } from "react";
+import * as XLSX from "xlsx";  
 import ES from "../ES.json";
 import alergenos from "../alergenos/alerjenos.json";
 import ReactToPrint from "react-to-print";
@@ -9,6 +10,17 @@ import "../App.css";
 import up from "../assets/up.png";
 
 function Menu({ intl, setAlergens, setResize }) {
+
+
+
+
+
+
+
+
+
+
+
   let componentRef = useRef();
   const [isVisible, setIsVisible] = useState(false);
   const [headerButton, setHeaderButton] = useState("");
@@ -21,6 +33,73 @@ function Menu({ intl, setAlergens, setResize }) {
   const [printMode, setPrintMode] = useState(false);
   const [scrollTo, setScrollTo] = useState("none");
   const prevScrollPos = useRef(0);
+
+
+
+
+  const readExcel =  async () =>{
+    const f = await (await fetch("/productos.xlsx")).arrayBuffer();   
+    const workbook = XLSX.read(f, { type: "binary" });
+    const sheetName = workbook.SheetNames[0];
+    const sheet = workbook.Sheets[sheetName];
+    const parsedData = XLSX.utils.sheet_to_json(sheet);    
+ 
+
+
+
+    const formateo = parsedData.map((prods)=>{ return {
+
+
+ 
+        "NAME": {
+          "es": prods.NAME_ES,
+          "en": prods.NAME_EN,
+          "fr": prods.NAME_FR,
+        },
+    
+        "PRICE":  prods.PRICE ? Number(prods.PRICE) : "",
+        "TYPE": {
+          "es": prods.TYPE_ES,
+          "en": prods.TYPE_EN,
+          "fr": prods.TYPE_FR,
+        },
+        "PIC": prods.PIC ?   prods.PIC : '',
+        "STYLE": prods.STYLE ? prods.STYLE : '',
+  
+        "ALERG": prods.ALERG  ?   JSON.parse(prods.ALERG) : '',
+     
+
+
+      
+    }})
+
+
+    if(formateo.length !==0){
+      setCarta(formateo);
+      allItems(formateo);
+    }
+
+ 
+   
+
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   function addZeroes(num) {
     return num.toLocaleString("en", {
       useGrouping: false,
@@ -35,12 +114,12 @@ function Menu({ intl, setAlergens, setResize }) {
     });
   };
 
-  useEffect(() => {
+/*   useEffect(() => {
     if (ES) {
-      setCarta(ES);
+      setCarta(formateo);
       allItems(ES);
     }
-  }, [ES]);
+  }, [ES]); */
 
   const printPage = () => {
     setPrintMode(true);
@@ -278,6 +357,13 @@ function Menu({ intl, setAlergens, setResize }) {
 
     return allProducts.slice(start, end);
   };
+
+
+
+  useEffect(() => {
+    readExcel()
+  }, [ ])
+  
 
   const sliceCartaPrint = (start, end) => {
     const allProducts = typesProds.map((prods, i) => {

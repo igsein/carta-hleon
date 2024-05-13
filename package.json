@@ -16,7 +16,8 @@
     "pages": "^0.0.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-to-print": "^2.15.1"
+    "react-to-print": "^2.15.1",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
