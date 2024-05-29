@@ -307,7 +307,7 @@
       "en": "SPECIAL (MEAT, CHEESE, HAM, LETTUCE, TOMATO, ONION, BACON AND EGG)",
       "fr": "SPÉCIAL (VIANDE, FROMAGE, JAMBON, LAITUE, TOMATE, OIGNON, BACON ET OEUF)"
     },
-
+    "PIC": "hambuespecial",
     "PRICE": 6,
     "TYPE": {
       "es": "HAMBURGUESAS",
@@ -593,7 +593,7 @@
       "en": "Special (york ham, cheese, lettuce, tomato, bacon and egg)",
       "fr": "SPÉCIAL (JAMBON, FROMAGE, LAITUE, TOMATE, BACON ET OEUF)"
     },
-
+    "PIC": "sanespecial",
     "PRICE": 6,
     "TYPE": {
       "es": "SANDWICHES",
