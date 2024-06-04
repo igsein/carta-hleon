@@ -352,7 +352,7 @@
       "en": "Rice with lobster",
       "fr": "RIZ AU HOMARD"
     },
-
+"PIC": "arrobogavante"
     "PRICE": "",
     "TYPE": {
       "es": "POR ENCARGO",
@@ -367,7 +367,7 @@
       "en": "Rice with Iberian pork",
       "fr": "RIZ À LA PROIE IBÉRIQUE"
     },
-
+"PIC": "arrozpresa"
     "PRICE": "",
     "TYPE": {
       "es": "POR ENCARGO",
