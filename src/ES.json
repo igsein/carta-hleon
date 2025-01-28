@@ -286,6 +286,27 @@
 
     "ALERG": [7, 9]
   },
+
+  {
+    "NAME": {
+      "es": "ESPECIAL DE VACA",
+      "en": "ESPECIAL DE VACA",
+      "fr": "ESPECIAL DE VACA"
+    },
+
+    "PRICE": 9,
+    "TYPE": {
+      "es": "HAMBURGUESAS",
+      "en": "BURGERS",
+      "fr": "HAMBURGERS"
+    },
+
+    "ALERG": [7, 9]
+  },
+
+
+
+  
   {
     "NAME": {
       "es": "NORMAL(CARNE Y QUESO)",
@@ -415,7 +436,7 @@
       "fr": "JAMBON IBÉRIEN"
     },
   "PIC": "bocajiberico",
-    "PRICE": 6,
+    "PRICE": 7,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -530,7 +551,7 @@
       "fr": "SERRANITO(LONGE, FROMAGE, TOMATE, POIVRONS ET JAMBON)"
     },
 "PIC": "serranito",
-    "PRICE": 6,
+    "PRICE": 7,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
