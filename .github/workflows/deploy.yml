@@ -50,9 +50,9 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
         
-      # Subir el artefacto (utilizamos la acción correcta para GitHub Pages)
+      # Subir el artefacto a GitHub Pages (usamos la versión correcta de la acción)
       - name: Upload artifact to Pages
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v1
         with:
           path: './dist'  # Asegúrate de que este directorio exista y contenga los archivos generados
         
