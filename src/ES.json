@@ -763,6 +763,23 @@
   },
 
 
+  {
+    "NAME": {
+      "es": "Pulpo a la plancha con patatas aliñadas",
+      "en": "Grilled octopus with seasoned potatoes",
+      "fr": "Poulpe grillé avec des pommes de terre assaisonnées"
+    },
+
+    "PRICE": 20,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    },
+    "ALERG": []
+  },
+
+
 
 
 
