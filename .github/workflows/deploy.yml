@@ -28,34 +28,40 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+      # Checkout the repository
       - name: Checkout
         uses: actions/checkout@v3
         
+      # Set up Node.js environment
       - name: Set up Node
         uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: 'npm'
           
+      # Install dependencies
       - name: Install dependencies
         run: npm install
         
+      # Build the project
       - name: Build
         run: npm run build
         
-      # Verifica si el directorio ./dist existe después de la construcción
+      # Verify the dist directory content (change this if the output directory is different)
       - name: List the contents of the dist directory
-        run: ls -al ./dist  # Verifica el contenido del directorio dist (cambia la ruta si es diferente)
+        run: ls -al ./dist  # Verifica el contenido del directorio dist
         
+      # Setup GitHub Pages environment
       - name: Setup Pages
         uses: actions/configure-pages@v3
         
-      # Subir el artefacto a GitHub Pages (usamos la versión correcta de la acción)
+      # Upload the built content to GitHub Pages
       - name: Upload artifact to Pages
         uses: actions/upload-pages-artifact@v1
         with:
           path: './dist'  # Asegúrate de que este directorio exista y contenga los archivos generados
         
+      # Deploy the content to GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
