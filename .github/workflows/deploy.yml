@@ -1,0 +1,65 @@
+# Este es el flujo de trabajo para desplegar contenido estático a GitHub Pages
+name: Deploy static content to GitHub Pages
+
+on:
+  # Este flujo de trabajo se ejecutará en cada push al branch 'main'
+  push:
+    branches: ['main']
+  
+  # También puedes ejecutarlo manualmente desde la pestaña de Actions
+  workflow_dispatch:
+
+# Definimos los permisos que necesita el token de GitHub
+permissions:
+  contents: read  # Para leer contenido
+  pages: write    # Para escribir en GitHub Pages
+  id-token: write # Para el uso de un token de identidad (necesario para algunas acciones de seguridad)
+
+# Permitimos solo un despliegue concurrente
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  # Solo necesitamos un job para el despliegue
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}  # Obtiene la URL de la página desplegada
+    runs-on: ubuntu-latest  # El job se ejecuta en un entorno Ubuntu
+
+    steps:
+      # 1. Checkout del código fuente
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Configuración de Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'  # Versión de Node.js a usar
+          cache: 'npm'  # Habilitar caché de dependencias de npm
+
+      # 3. Instalación de dependencias
+      - name: Install dependencies
+        run: npm install  # Instala las dependencias del proyecto
+
+      # 4. Construcción del proyecto
+      - name: Build project
+        run: npm run build  # Ejecuta el script de construcción (asegúrate de que esté configurado en tu package.json)
+
+      # 5. Configuración de GitHub Pages (esta acción prepara el entorno de Pages)
+      - name: Set up Pages
+        uses: actions/configure-pages@v3
+
+      # 6. Subir el artefacto (el contenido generado, generalmente el directorio dist)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: './dist'  # Cambia esto si tu directorio de salida es diferente
+
+      # 7. Desplegar en GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2  # Acción de despliegue de Pages (v2)
+
