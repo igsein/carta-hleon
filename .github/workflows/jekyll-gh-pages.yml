@@ -42,7 +42,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v3
       - name: Upload artifact v4
-        uses: actions/upload-pages-artifact@v2
+        uses: actions/upload-artifact@v3 # Aquí se actualiza la versión de esta acción
         with:
           # Upload dist repository
           path: './dist'
