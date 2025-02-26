@@ -1,51 +1,68 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+# Este es el flujo de trabajo para desplegar contenido estático a GitHub Pages
+name: Deploy static content to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Este flujo de trabajo se ejecutará en cada push al branch 'main'
   push:
     branches: ['main']
-
-  # Allows you to run this workflow manually from the Actions tab
+  
+  # También puedes ejecutarlo manualmente desde la pestaña de Actions
   workflow_dispatch:
 
-# Sets the GITHUB_TOKEN permissions to allow deployment to GitHub Pages
+# Definimos los permisos que necesita el token de GitHub
 permissions:
-  contents: read
-  pages: write
-  id-token: write
+  contents: read  # Para leer contenido
+  pages: write    # Para escribir en GitHub Pages
+  id-token: write # Para el uso de un token de identidad (necesario para algunas acciones de seguridad)
 
-# Allow one concurrent deployment
+# Permitimos solo un despliegue concurrente
 concurrency:
   group: 'pages'
   cancel-in-progress: true
 
 jobs:
-  # Single deploy job since we're just deploying
+  # Solo necesitamos un job para el despliegue
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+      url: ${{ steps.deployment.outputs.page_url }}  # Obtiene la URL de la página desplegada
+    runs-on: ubuntu-latest  # El job se ejecuta en un entorno Ubuntu
+
     steps:
-      - name: Checkout
+      # 1. Checkout del código fuente
+      - name: Checkout code
         uses: actions/checkout@v3
-      - name: Set up Node
+
+      # 2. Configuración de Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 18
-          cache: 'npm'
+          node-version: '18'  # Versión de Node.js a usar
+          cache: 'npm'  # Habilitar caché de dependencias de npm
+
+      # 3. Instalación de dependencias
       - name: Install dependencies
-        run: npm install
-      - name: Build
-        run: npm run build
-      - name: Setup Pages
+        run: npm install  # Instala las dependencias del proyecto
+
+      # 4. Construcción del proyecto
+      - name: Build project
+        run: npm run build  # Ejecuta el script de construcción
+
+      # 5. Verificación del contenido generado
+      - name: List the contents of the dist directory
+        run: ls -al ./dist  # Verifica si los archivos de construcción existen en el directorio
+
+      # 6. Configuración de GitHub Pages (esta acción prepara el entorno de Pages)
+      - name: Set up Pages
         uses: actions/configure-pages@v3
-      - name: Upload artifact v4
-        uses: actions/upload-artifact@v4 # Aquí se actualiza la versión de esta acción
+
+      # 7. Subir el artefacto (el contenido generado, generalmente el directorio dist)
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
         with:
-          # Upload dist repository
-          path: './dist'
+          path: './dist'  # Cambia esto si tu directorio de salida es diferente
+
+      # 8. Desplegar en GitHub Pages
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v2  # Acción de despliegue de Pages (v2)
