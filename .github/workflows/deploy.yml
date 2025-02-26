@@ -54,7 +54,7 @@ jobs:
 
       # 6. Subir el artefacto (el contenido generado, generalmente el directorio dist)
       - name: Upload artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           path: './dist'  # Cambia esto si tu directorio de salida es diferente
 
