@@ -154,7 +154,7 @@ function Menu({ intl, setAlergens, setResize }) {
   const capitalizeWord = (text) => {
     const lower = text.toLowerCase();
 
-    const stringModificado = lower.replace(/(.{30})/g, "$1\n");
+    const stringModificado = lower.replace(/(.{50})/g, "$1\n");
     return capitalizeFirstLetter(stringModificado);
   };
 

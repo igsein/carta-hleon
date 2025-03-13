@@ -1,15 +1,17 @@
 [
-  {
+  {  
     "NAME": {
       "es": "Sólo se sirven tostadas hasta las 12:00h",
       "en": "Only toast will be served until 2:00 p.m.",
       "fr": "Seuls les toasts sont servis jusqu'à 14h00."
+      
     },
+    
     "PRICE": "",
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
-      "fr": "TOAST"
+      "fr": "TOAST" 
     },
 
     "STYLE": "incremento"
@@ -286,6 +288,27 @@
 
     "ALERG": [7, 9]
   },
+
+  {
+    "NAME": {
+      "es": "ESPECIAL DE VACA",
+      "en": "ESPECIAL DE VACA",
+      "fr": "ESPECIAL DE VACA"
+    },
+
+    "PRICE": 9,
+    "TYPE": {
+      "es": "HAMBURGUESAS",
+      "en": "BURGERS",
+      "fr": "HAMBURGERS"
+    },
+
+    "ALERG": [7, 9]
+  },
+
+
+
+  
   {
     "NAME": {
       "es": "NORMAL(CARNE Y QUESO)",
@@ -307,7 +330,7 @@
       "en": "SPECIAL (MEAT, CHEESE, HAM, LETTUCE, TOMATO, ONION, BACON AND EGG)",
       "fr": "SPÉCIAL (VIANDE, FROMAGE, JAMBON, LAITUE, TOMATE, OIGNON, BACON ET OEUF)"
     },
-
+    "PIC": "hambuespecial",
     "PRICE": 6,
     "TYPE": {
       "es": "HAMBURGUESAS",
@@ -352,7 +375,7 @@
       "en": "Rice with lobster",
       "fr": "RIZ AU HOMARD"
     },
-
+"PIC": "arrozbogavante",
     "PRICE": "",
     "TYPE": {
       "es": "POR ENCARGO",
@@ -367,7 +390,7 @@
       "en": "Rice with Iberian pork",
       "fr": "RIZ À LA PROIE IBÉRIQUE"
     },
-
+"PIC": "arrozpresa",
     "PRICE": "",
     "TYPE": {
       "es": "POR ENCARGO",
@@ -414,8 +437,8 @@
       "en": "Iberian ham",
       "fr": "JAMBON IBÉRIEN"
     },
-
-    "PRICE": 6,
+  "PIC": "bocajiberico",
+    "PRICE": 7,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -529,8 +552,8 @@
       "en": "Serranito (loin, cheese, tomato, peppers and ham)",
       "fr": "SERRANITO(LONGE, FROMAGE, TOMATE, POIVRONS ET JAMBON)"
     },
-
-    "PRICE": 6,
+"PIC": "serranito",
+    "PRICE": 7,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -593,7 +616,7 @@
       "en": "Special (york ham, cheese, lettuce, tomato, bacon and egg)",
       "fr": "SPÉCIAL (JAMBON, FROMAGE, LAITUE, TOMATE, BACON ET OEUF)"
     },
-
+    "PIC": "sanespecial",
     "PRICE": 6,
     "TYPE": {
       "es": "SANDWICHES",
@@ -642,7 +665,7 @@
       "en": "Loin steaks, peppers, fried egg and chips",
       "fr": "STEAKS D'ALOYAU, POIVRONS, OEUF AU PLAT ET FRITES"
     },
-
+"PIC": "combinado3",
     "PRICE": 10,
     "TYPE": {
       "es": "PLATOS COMBINADOS",
@@ -740,6 +763,53 @@
     },
     "ALERG": [8]
   },
+
+
+  {
+    "NAME": {
+      "es": "Pulpo a la plancha con patatas aliñadas",
+      "en": "Grilled octopus with seasoned potatoes",
+      "fr": "Poulpe grillé avec des pommes de terre assaisonnées"
+    },
+    "PIC": "pulpo",
+    "PRICE": 20,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    }
+  },
+
+
+
+
+
+  
+
+  {
+    "NAME": {
+      "es": "HUEVOS ROTOS CON gambas cristalizadas",
+      "en": "broken eggs with crystallized shrimp",
+      "fr": "ŒUFS BROUILLÉS AU JAMBON IBÉRIQUE"
+    },
+   "PIC": "huevos_rotos_gambas",
+    "PRICE": 13,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    },
+    "ALERG": [8, 4]
+  },
+
+
+
+
+
+
+
+
+  
   {
     "NAME": {
       "es": "PATATAS CON BACON Y 4 QUESOS",
@@ -941,9 +1011,9 @@
   },
   {
     "NAME": {
-      "es": "SAQUITOS DE BOLETUS O MARISCO",
-      "en": "Boletus or shellfish bags",
-      "fr": "SACHETS DE CÈPES OU DE FRUITS DE MER"
+      "es": "Variedad de saquitos",
+      "en": "Variety of bags",
+      "fr": "Variété de sacs  "
     },
     "PIC": "saquitos",
     "PRICE": 12,
@@ -989,7 +1059,7 @@
       "en": "Iberian feather",
       "fr": "PLAT IBÉRIEN"
     },
-
+  "PIC": "pluma",
     "PRICE": 20,
     "TYPE": {
       "es": "SEGÚN DISPONIBILIDAD",
