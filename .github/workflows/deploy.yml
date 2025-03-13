@@ -36,20 +36,17 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Verify build output
-        run: ls -al ./dist  # Asegúrate de que el directorio dist tiene contenido
+      - name: Check if dist exists
+        run: ls -al ./dist  # Asegúrate de que la carpeta dist/ fue creada correctamente
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-pages-artifact@v1  # ✅ Cambio aquí
         with:
-          name: github-pages-artifact  # Nombre del artefacto
-          path: './dist'  # Asegúrate de que esta carpeta contiene los archivos generados
+          path: './dist'  # Asegúrate de que este directorio existe
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
-        with:
-          artifact_name: github-pages-artifact  # Referencia al nombre del artefacto
