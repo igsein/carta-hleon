@@ -45,12 +45,20 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: github-pages  # 🔹 Debe coincidir con el paso de deploy
+          name: github-pages
           path: './dist'
-          retention-days: 1  # Mantiene el artifact solo por 1 día (opcional)
+          retention-days: 1
+
+      - name: Debugging environment variables
+        run: printenv
+
+      - name: List uploaded artifacts
+        run: |
+          echo "Listing all artifacts..."
+          ls -al ./dist
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
         with:
-          artifact_name: github-pages  # 🔹 Coincide con el nombre del artifact
+          artifact_name: github-pages
