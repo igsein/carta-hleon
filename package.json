@@ -6,7 +6,7 @@
   "homepage": "igsein.github.io/carta_hostal_leon",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deployffffff": "gh-pages -d dist",
     "dev": "vite --port 3000",
     "build": "vite build",
     "preview": "vite preview --port 6046"
