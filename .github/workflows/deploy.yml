@@ -43,7 +43,7 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1  # ✅ Cambio aquí
+        uses: actions/upload-artifact # ✅ Cambio aquí
         with:
           path: './dist'  # Asegúrate de que este directorio existe
 
