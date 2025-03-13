@@ -37,7 +37,9 @@ jobs:
         run: npm run build
 
       - name: Check if dist exists
-        run: ls -al ./dist  # Verifica si la carpeta dist/ se generó
+        run: |
+          echo "Listing contents of dist folder..."
+          ls -al ./dist
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
