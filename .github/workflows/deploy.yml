@@ -43,10 +43,13 @@ jobs:
         uses: actions/configure-pages@v3
 
       - name: Upload artifact
-        uses: actions/upload-artifact # ✅ Cambio aquí
+        uses: actions/upload-artifact@v3
         with:
-          path: './dist'  # Asegúrate de que este directorio existe
+          name: github-pages  # 🔹 GitHub Pages espera este nombre
+          path: './dist'
 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
+        with:
+          artifact_name: github-pages  # 🔹 Coincide con el nombre en upload-artifact
