@@ -45,20 +45,7 @@
     },
     "ALERG": [7, 12]
   },
-  {
-    "NAME": {
-      "es": "Bacon",
-      "en": "Bacon",
-      "fr": "Bacon"
-    },
-    "PRICE": 1.8,
-    "TYPE": {
-      "es": "TOSTADAS",
-      "en": "TOASTS",
-      "fr": "TOAST"
-    },
-    "ALERG": [7]
-  },
+ 
   {
     "NAME": {
       "es": "Bacon con queso",
