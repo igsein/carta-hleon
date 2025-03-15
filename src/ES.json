@@ -226,12 +226,12 @@
   },
   {
     "NAME": {
-      "es": "QUESO(FUNDIDO FRESCO O CURADO)",
-      "en": "Cheese (fresh or cured melted) ",
-      "fr": "FROMAGE (FRAIS FONDU OU AFFINÉ)"
+      "es": "QUESO FRESCO",
+      "en": "Cheese fresh   ",
+      "fr": "FROMAGE FRAIS "
     },
 
-    "PRICE": 1.5,
+    "PRICE": 2,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
