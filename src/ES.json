@@ -61,6 +61,34 @@
   },
   {
     "NAME": {
+      "es": "Bacon con queso",
+      "en": "Bacon with cheesse",
+      "fr": "Bacon con queso"
+    },
+    "PRICE": 2,
+    "TYPE": {
+      "es": "TOSTADAS",
+      "en": "TOASTS",
+      "fr": "TOAST"
+    },
+    "ALERG": [7]
+  },
+  {
+    "NAME": {
+      "es": "Queso curado",
+      "en": "Queso curado",
+      "fr": "Queso curado"
+    },
+    "PRICE": 2,
+    "TYPE": {
+      "es": "TOSTADAS",
+      "en": "TOASTS",
+      "fr": "TOAST"
+    },
+    "ALERG": [7]
+  },
+  {
+    "NAME": {
       "es": "JAMÓN IBÉRICO CON TOMATE Y ACEITE",
       "en": "Iberian ham with tomato and oil",
       "fr": "JAMBON IBÉRIQUE AVEC TOMATE ET HUILE D'OLIVE"
@@ -233,7 +261,7 @@
       "fr": "OMELETTE FRANÇAISE"
     },
 
-    "PRICE": 1.8,
+    "PRICE": 2,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -331,7 +359,7 @@
       "fr": "SPÉCIAL (VIANDE, FROMAGE, JAMBON, LAITUE, TOMATE, OIGNON, BACON ET OEUF)"
     },
     "PIC": "hambuespecial",
-    "PRICE": 6,
+    "PRICE": 7,
     "TYPE": {
       "es": "HAMBURGUESAS",
       "en": "BURGERS",
@@ -772,7 +800,7 @@
       "fr": "Poulpe grillé avec des pommes de terre assaisonnées"
     },
     "PIC": "pulpo",
-    "PRICE": 20,
+    "PRICE": 22,
     "TYPE": {
       "es": "RACIONES",
       "en": "RATIONS",
