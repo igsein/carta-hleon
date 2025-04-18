@@ -9559,7 +9559,7 @@ const fo = [
           en: "Rejos",
           fr: "Rejos",
         },
-        PIC: "pulpo",
+       
         PRICE: 16,
         TYPE: { es: "RACIONES", en: "RATIONS", fr: "RATIONS" },
       },
