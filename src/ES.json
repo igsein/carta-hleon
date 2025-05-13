@@ -52,13 +52,13 @@
       "en": "Bacon with cheesse",
       "fr": "Bacon con queso"
     },
-    "PRICE": 2,
+    "PRICE": 2.5,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [9,5,7]
   },
   {
     "NAME": {
@@ -72,7 +72,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [7,9]
   },
   {
     "NAME": {
@@ -88,7 +88,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [5,7]
   },
 
   {
@@ -104,7 +104,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [9,5,7,8]
   },
   {
     "NAME": {
@@ -118,7 +118,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [5,7]
   },
   {
     "NAME": {
@@ -133,7 +133,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [5,7]
   },
   {
     "NAME": {
@@ -148,7 +148,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [7,9]
   },
   {
     "NAME": {
@@ -162,7 +162,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7, 9]
+    "ALERG": [7,9]
   },
 
   {
@@ -179,7 +179,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7, 9]
+    "ALERG": [5,7,8]
   },
 
   {
@@ -195,7 +195,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [9,5,7,8,6]
   },
   {
     "NAME": {
@@ -209,7 +209,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7]
+    "ALERG": [9,14,7]
   },
   {
     "NAME": {
@@ -254,7 +254,7 @@
       "en": "TOASTS",
       "fr": "TOAST"
     },
-    "ALERG": [7, 8]
+    "ALERG": [7, 9]
   },
   {
     "NAME": {
@@ -263,7 +263,7 @@
       "fr": "POMMES DE TERRE BROUILLÉES À L'ŒUF"
     },
 "PIC": "tostada_revuelto",
-    "PRICE": 2,
+    "PRICE": 2.5,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -352,7 +352,7 @@
       "en": "BURGERS",
       "fr": "HAMBURGERS"
     },
-    "ALERG": [7, 9, 8]
+    "ALERG": [7, 9, 8,5]
   },
   {
     "NAME": {
@@ -382,7 +382,8 @@
       "es": "POR ENCARGO",
       "en": "CUSTOM MADE",
       "fr": "SUR DEMANDE"
-    }
+    },
+    "ALERG": [7]
   },
   {
     "NAME": {
@@ -397,7 +398,7 @@
       "en": "CUSTOM MADE",
       "fr": "SUR DEMANDE"
     },
-    "ALERG": [4]
+    "ALERG": [4,7]
   },
   {
     "NAME": {
@@ -411,7 +412,7 @@
       "es": "POR ENCARGO",
       "en": "CUSTOM MADE",
       "fr": "SUR DEMANDE"
-    }
+    },  "ALERG": [7]
   },
   {
     "NAME": {
@@ -426,7 +427,7 @@
       "en": "CUSTOM MADE",
       "fr": "SUR DEMANDE"
     },
-    "ALERG": [4]
+    "ALERG": [4,7]
   },
   {
     "NAME": {
@@ -459,7 +460,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7]
+    "ALERG": [7,5]
   },
   {
     "NAME": {
@@ -468,13 +469,13 @@
       "fr": "JAMBON SERRANO"
     },
 
-    "PRICE": 4,
+    "PRICE": 5,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7]
+    "ALERG": [7,5]
   },
   {
     "NAME": {
@@ -489,7 +490,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7, 9]
+    "ALERG": [7, 9, 14, 5]
   },
 
 
@@ -506,7 +507,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [10]
+    "ALERG": [4, 7]
   },
 
 
@@ -529,7 +530,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7, 9]
+    "ALERG": [7, 9, 14, 5]
   },
   {
     "NAME": {
@@ -544,7 +545,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7]
+    "ALERG": [7, 8]
   },
   {
     "NAME": {
@@ -559,7 +560,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7]
+    "ALERG": [7, 8, 5]
   },
   {
     "NAME": {
@@ -574,7 +575,7 @@
       "en": "SNACK",
       "fr": "COLLATIONS"
     },
-    "ALERG": [7, 9]
+    "ALERG": [7, 9, 5]
   },
 
   {
@@ -607,7 +608,7 @@
       "fr": "SANDWICHES"
     },
 
-    "ALERG": [7, 9]
+    "ALERG": [7, 9, 5]
   },
   {
     "NAME": {
@@ -687,7 +688,7 @@
       "en": "COMBINED DISHES",
       "fr": "PLATS COMBINÉS"
     },
-    "ALERG": [8]
+    "ALERG": [8,14]
   },
   {
     "NAME": {
@@ -702,7 +703,7 @@
       "en": "COMBINED DISHES",
       "fr": "PLATS COMBINÉS"
     },
-    "ALERG": [7, 8]
+    "ALERG": [7, 8, 14, 5]
   },
   {
     "NAME": {
@@ -717,7 +718,7 @@
       "en": "COMBINED DISHES",
       "fr": "PLATS COMBINÉS"
     },
-    "ALERG": [8]
+    "ALERG": [7, 8, 14, 5]
   },
   {
     "NAME": {
@@ -732,7 +733,7 @@
       "en": "COMBINED DISHES",
       "fr": "PLATS COMBINÉS"
     },
-    "ALERG": [8]
+    "ALERG": [7,   14, 5]
   },
   {
     "NAME": {
@@ -765,6 +766,21 @@
   },
   {
     "NAME": {
+      "es": "REJOS",
+      "en": "REJOS",
+      "fr": "REJOS"
+    },
+
+    "PRICE": 16,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    },
+    "ALERG": [4, 7, 5]
+  },
+  {
+    "NAME": {
       "es": "HUEVOS ROTOS CON JAMÓN IBÉRICO",
       "en": "Scrambled eggs with Iberian ham",
       "fr": "ŒUFS BROUILLÉS AU JAMBON IBÉRIQUE"
@@ -776,7 +792,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [8]
+    "ALERG": [8,5]
   },
 
 
@@ -792,7 +808,8 @@
       "es": "RACIONES",
       "en": "RATIONS",
       "fr": "RATIONS"
-    }
+    },
+    "ALERG": [7,4]
   },
 
 
@@ -840,7 +857,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [9]
+    "ALERG": [9,5]
   },
   {
     "NAME": {
@@ -890,7 +907,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [7, 8]
+    "ALERG": [7, 8, 12, 4,9]
   },
   {
     "NAME": {
@@ -909,13 +926,13 @@
       "fr": "ASSORTIMENT DE CHARCUTERIE IBÉRIQUE (JAMBON, ÉCHINE ET FROMAGE)"
     },
 
-    "PRICE": 18,
+    "PRICE": 20,
     "TYPE": {
       "es": "RACIONES",
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [9]
+    "ALERG": [7, 5 ,9]
   },
   {
     "NAME": {
@@ -931,7 +948,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [12]
+    "ALERG": [7,12]
   },
   {
     "NAME": {
@@ -947,7 +964,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [10]
+    "ALERG": [4,10]
   },
   {
     "NAME": {
@@ -962,7 +979,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [10]
+    "ALERG": [4,10]
   },
   {
     "NAME": {
@@ -1022,7 +1039,8 @@
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [6,14]
   },
   {
     "NAME": {
@@ -1038,7 +1056,7 @@
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
     },
 
-    "ALERG": [4]
+    "ALERG": [4, 14]
   },
   {
     "NAME": {
@@ -1052,7 +1070,8 @@
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [5,14]
   },
   {
     "NAME": {
@@ -1061,12 +1080,13 @@
       "fr": "PREMIUM IBÉRIEN"
     },
 
-    "PRICE": 18,
+    "PRICE": 20,
     "TYPE": {
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [5]
   },
   {
     "NAME": {
@@ -1080,7 +1100,8 @@
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [5]
   },
   {
     "NAME": {
@@ -1094,7 +1115,8 @@
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [5]
   },
   {
     "NAME": {
@@ -1108,7 +1130,8 @@
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [5]
   },
   {
     "NAME": {
@@ -1123,7 +1146,8 @@
       "es": "SEGÚN DISPONIBILIDAD",
       "en": "ACCORDING TO AVAILABILITY",
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
-    }
+    },
+    "ALERG": [5]
   },
 
   {
