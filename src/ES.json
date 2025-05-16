@@ -1178,20 +1178,7 @@
       "fr": "DESSERTS"
     }
   },
-  {
-    "NAME": {
-      "es": "Red Velvet",
-      "en": "Red Velvet",
-      "fr": "Red Velvet"
-    },
-  "PIC": "velvet",
-    "PRICE": "4.50",
-    "TYPE": {
-      "es": "POSTRES",
-      "en": "DESSERTS",
-      "fr": "DESSERTS"
-    }
-  },
+ 
   {
     "NAME": {
       "es": "Tarta de queso artesana",
@@ -1206,20 +1193,7 @@
       "fr": "DESSERTS"
     }
   },
-  {
-    "NAME": {
-      "es": "Lingote brownie con nueces",
-      "en": "Brownie ingot with walnuts",
-      "fr": "Barre de brownie aux noix"
-    },
-  "PIC": "brownie",
-    "PRICE": "3",
-    "TYPE": {
-      "es": "POSTRES",
-      "en": "DESSERTS",
-      "fr": "DESSERTS"
-    }
-  },
+ 
   {
     "NAME": {
       "es": "Mini Carolina",
