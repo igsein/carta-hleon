@@ -779,6 +779,21 @@
     },
     "ALERG": [4, 7, 5]
   },
+    {
+    "NAME": {
+      "es": "Torreznos de Torreorgaz",
+      "en": "Torreznos de Torreorgaz",
+      "fr": "Torreznos de Torreorgaz"
+    },
+
+    "PRICE": 4,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    },
+    "ALERG": [5]
+  },
   {
     "NAME": {
       "es": "HUEVOS ROTOS CON JAMÓN IBÉRICO",
