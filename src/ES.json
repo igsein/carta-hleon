@@ -66,7 +66,7 @@
       "en": "Queso curado",
       "fr": "Queso curado"
     },
-    "PRICE": 2,
+    "PRICE": 2.5,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -82,7 +82,7 @@
     },
     "PIC": "tostada_jamon_iberico",
 
-    "PRICE": 2.5,
+    "PRICE": 3,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -98,7 +98,7 @@
       "fr": "PARISINA AVEC OEUF"
     },
     "PIC": "tostada_jamon_huevo",
-    "PRICE": 2.5,
+    "PRICE": 3,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -127,7 +127,7 @@
       "fr": "LACON"
     },
 
-    "PRICE": 2,
+    "PRICE": 2.5,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -156,7 +156,7 @@
       "en": "Parisian",
       "fr": "PARISINA"
     },
-    "PRICE": 2,
+    "PRICE": 2.5,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -173,7 +173,7 @@
     },
 
 
-    "PRICE": 3,
+    "PRICE": 3.5,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -263,7 +263,7 @@
       "fr": "POMMES DE TERRE BROUILLÉES À L'ŒUF"
     },
 "PIC": "tostada_revuelto",
-    "PRICE": 2.5,
+    "PRICE": 3,
     "TYPE": {
       "es": "TOSTADAS",
       "en": "TOASTS",
@@ -1024,7 +1024,7 @@
       "fr": "Muselière de PORC FRIT"
     },
 
-    "PRICE": 10,
+    "PRICE": 12,
     "TYPE": "RACIONES"
   },
   {
