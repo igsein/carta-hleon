@@ -665,7 +665,7 @@
       "fr": "CALAMARS, CROQUETTES ET SALADE"
     },
 "PIC": "comb1",
-    "PRICE": 10,
+    "PRICE": 12,
 
     "TYPE": {
       "es": "PLATOS COMBINADOS",
@@ -682,7 +682,7 @@
       "fr": "STEAKS D'ALOYAU, POIVRONS, OEUF AU PLAT ET FRITES"
     },
 "PIC": "combinado3",
-    "PRICE": 10,
+    "PRICE": 12,
     "TYPE": {
       "es": "PLATOS COMBINADOS",
       "en": "COMBINED DISHES",
@@ -697,7 +697,7 @@
       "fr": "FILETS DE POULET GRILLÉS, BACON, FRITES ET ŒUF AU PLAT"
     },
 "PIC": "comb3",
-    "PRICE": 10,
+    "PRICE": 12,
     "TYPE": {
       "es": "PLATOS COMBINADOS",
       "en": "COMBINED DISHES",
@@ -712,7 +712,7 @@
       "fr": "SAUCISSES DE POULET, ŒUF AU PLAT ET FRITES"
     },
 
-    "PRICE": 10,
+    "PRICE": 12,
     "TYPE": {
       "es": "PLATOS COMBINADOS",
       "en": "COMBINED DISHES",
@@ -727,7 +727,7 @@
       "fr": "OMELETTE FRANÇAISE AVEC JAMBON ET SALADE"
     },
 
-    "PRICE": 9,
+    "PRICE": 10,
     "TYPE": {
       "es": "PLATOS COMBINADOS",
       "en": "COMBINED DISHES",
