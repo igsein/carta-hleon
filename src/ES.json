@@ -833,22 +833,7 @@
 
   
 
-  {
-    "NAME": {
-      "es": "HUEVOS ROTOS CON gambas cristalizadas",
-      "en": "broken eggs with crystallized shrimp",
-      "fr": "ŒUFS BROUILLÉS AU JAMBON IBÉRIQUE"
-    },
-   "PIC": "huevos_rotos_gambas",
-    "PRICE": 13,
-    "TYPE": {
-      "es": "RACIONES",
-      "en": "RATIONS",
-      "fr": "RATIONS"
-    },
-    "ALERG": [8, 4]
-  },
-
+  
 
 
 
