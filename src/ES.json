@@ -311,7 +311,7 @@
       "fr": "ESPECIAL DE VACA"
     },
 
-    "PRICE": 11,
+    "PRICE": 12,
     "TYPE": {
       "es": "HAMBURGUESAS",
       "en": "BURGERS",
@@ -346,7 +346,7 @@
       "fr": "SPÉCIAL (VIANDE, FROMAGE, JAMBON, LAITUE, TOMATE, OIGNON, BACON ET OEUF)"
     },
     "PIC": "hambuespecial",
-    "PRICE": 7,
+    "PRICE": 9,
     "TYPE": {
       "es": "HAMBURGUESAS",
       "en": "BURGERS",
