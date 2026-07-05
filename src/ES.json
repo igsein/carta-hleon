@@ -794,6 +794,31 @@
     },
     "ALERG": [5]
   },
+
+
+    {
+    "NAME": {
+      "es": "Ración de Morros",
+      "en": "Ración de Morros",
+      "fr": "Ración de Morros"
+    },
+"PIC": "morros",
+    "PRICE": 12,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    },
+    "ALERG": [5]
+  },
+
+
+
+
+
+
+
+
   {
     "NAME": {
       "es": "HUEVOS ROTOS CON JAMÓN IBÉRICO",
