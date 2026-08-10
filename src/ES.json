@@ -501,7 +501,7 @@
       "fr": "CALMAR"
     },
 
-    "PRICE": "6",
+    "PRICE": "7",
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -569,7 +569,7 @@
       "fr": "SERRANITO(LONGE, FROMAGE, TOMATE, POIVRONS ET JAMBON)"
     },
 "PIC": "serranito",
-    "PRICE": 7,
+    "PRICE": 8,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -756,7 +756,7 @@
       "fr": "CHURRITOS DE POULET AVEC SAUCE MOUTARDE ET MIEL"
     },
 
-    "PRICE": 10,
+    "PRICE": 12,
     "TYPE": {
       "es": "RACIONES",
       "en": "RATIONS",
