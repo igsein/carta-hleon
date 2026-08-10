@@ -437,7 +437,7 @@
     },
     "PIC": "bocadillo_bacon",
 
-    "PRICE": 5,
+    "PRICE": 6,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -484,7 +484,7 @@
       "fr": "LONGE AVEC FROMAGE"
     },
 
-    "PRICE": "5",
+    "PRICE": "6",
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
@@ -524,7 +524,7 @@
       "fr": "POITRINE DE POULET"
     },
 
-    "PRICE": 5,
+    "PRICE": 6,
     "TYPE": {
       "es": "BOCADILLOS",
       "en": "SNACK",
