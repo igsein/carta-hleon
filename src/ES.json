@@ -601,7 +601,7 @@
       "fr": "NORMAL(JAMBON ET FROMAGE)"
     },
 "PIC": "sandwich_normal",
-    "PRICE": 3.5,
+    "PRICE": 5,
     "TYPE": {
       "es": "SANDWICHES",
       "en": "SANDWICHES",
@@ -617,7 +617,7 @@
       "fr": "VÉGÉTAL"
     },
 
-    "PRICE": 3.5,
+    "PRICE": 5,
     "TYPE": {
       "es": "SANDWICHES",
       "en": "SANDWICHES",
@@ -633,7 +633,7 @@
       "fr": "SPÉCIAL (JAMBON, FROMAGE, LAITUE, TOMATE, BACON ET OEUF)"
     },
     "PIC": "sanespecial",
-    "PRICE": 6,
+    "PRICE": 8,
     "TYPE": {
       "es": "SANDWICHES",
       "en": "SANDWICHES",
