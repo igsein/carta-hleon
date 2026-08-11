@@ -660,9 +660,9 @@
   },
   {
     "NAME": {
-      "es": "CALAMARES, CROQUETAS Y ENSALADA",
-      "en": "Squid, croquettes and salad",
-      "fr": "CALAMARS, CROQUETTES ET SALADE"
+      "es": "1 - CALAMARES, CROQUETAS Y ENSALADA",
+      "en": "1 -Squid, croquettes and salad",
+      "fr": "1 - CALAMARS, CROQUETTES ET SALADE"
     },
 "PIC": "comb1",
     "PRICE": 12,
@@ -677,9 +677,9 @@
   },
   {
     "NAME": {
-      "es": "FILETES DE LOMO, PIMIENTOS, HUEVO FRITO Y PATATAS FRITAS",
-      "en": "Loin steaks, peppers, fried egg and chips",
-      "fr": "STEAKS D'ALOYAU, POIVRONS, OEUF AU PLAT ET FRITES"
+      "es": "2 - FILETES DE LOMO, PIMIENTOS, HUEVO FRITO Y PATATAS FRITAS",
+      "en": "2 - Loin steaks, peppers, fried egg and chips",
+      "fr": "2 - STEAKS D'ALOYAU, POIVRONS, OEUF AU PLAT ET FRITES"
     },
 "PIC": "combinado3",
     "PRICE": 12,
@@ -692,9 +692,9 @@
   },
   {
     "NAME": {
-      "es": "FILETES DE POLLO A LA PLANCHA, BACON, PATATAS FRITAS Y HUEVO FRITO",
-      "en": "Grilled chicken fillets, bacon, chips and fried egg",
-      "fr": "FILETS DE POULET GRILLÉS, BACON, FRITES ET ŒUF AU PLAT"
+      "es": "3 - FILETES DE POLLO A LA PLANCHA, BACON, PATATAS FRITAS Y HUEVO FRITO",
+      "en": "3 - Grilled chicken fillets, bacon, chips and fried egg",
+      "fr": "3 - FILETS DE POULET GRILLÉS, BACON, FRITES ET ŒUF AU PLAT"
     },
 "PIC": "comb3",
     "PRICE": 12,
@@ -707,9 +707,9 @@
   },
   {
     "NAME": {
-      "es": "SALCHICAS DE POLLO,HUEVO FRITO Y PATATAS FRITAS",
-      "en": "Chicken sausages, fried egg and French fries",
-      "fr": "SAUCISSES DE POULET, ŒUF AU PLAT ET FRITES"
+      "es": "4 - SALCHICAS DE POLLO,HUEVO FRITO Y PATATAS FRITAS",
+      "en": "4 - Chicken sausages, fried egg and French fries",
+      "fr": "4 - SAUCISSES DE POULET, ŒUF AU PLAT ET FRITES"
     },
 
     "PRICE": 12,
@@ -722,9 +722,9 @@
   },
   {
     "NAME": {
-      "es": "TORTILLA FRANCESA ACOMPAÑADA DE JAMÓN YORK Y ENSALADA",
-      "en": "French omelette accompanied by ham and salad",
-      "fr": "OMELETTE FRANÇAISE AVEC JAMBON ET SALADE"
+      "es": "5 - TORTILLA FRANCESA ACOMPAÑADA DE JAMÓN YORK Y ENSALADA",
+      "en": "5 - French omelette accompanied by ham and salad",
+      "fr": "5 - OMELETTE FRANÇAISE AVEC JAMBON ET SALADE"
     },
 
     "PRICE": 10,
