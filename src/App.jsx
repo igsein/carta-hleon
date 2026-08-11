@@ -774,6 +774,9 @@ function App() {
 
                         <div className="product-grid">
                           {products.map((product, index) => {
+                            const localizedName = toSentenceCase(
+                              getLocalizedText(product.NAME, language)
+                            );
                             const productAllergens = (product.ALERG || [])
                               .map((id) => allergensById[id])
                               .filter(Boolean);
@@ -783,19 +786,19 @@ function App() {
                             return (
                               <article
                                 className={`product-card ${isIncrementCard ? "product-card-highlight" : ""}`}
-                                key={`${category}-${index}-${getLocalizedText(product.NAME, language)}`}
+                                key={`${category}-${index}-${localizedName}`}
                               >
                                 {!isIncrementCard ? (
                                   <ProductImage
                                     pic={product.PIC}
-                                    alt={getLocalizedText(product.NAME, language)}
+                                    alt={localizedName}
                                     openLabel={text.viewImage}
                                     onOpen={setSelectedImage}
                                   />
                                 ) : null}
 
                                 <div className="product-topline">
-                                  <h3>{getLocalizedText(product.NAME, language)}</h3>
+                                  <h3>{localizedName}</h3>
                                   {shouldShowPrice ? (
                                     <strong>
                                       {formatPrice(product.PRICE, language)}
