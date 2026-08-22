@@ -483,7 +483,7 @@
       "en": "Loin with cheese",
       "fr": "LONGE AVEC FROMAGE"
     },
-
+    "PIC": "lom_ques_boc",
     "PRICE": "6",
     "TYPE": {
       "es": "BOCADILLOS",
@@ -500,7 +500,7 @@
       "en": "SQUID",
       "fr": "CALMAR"
     },
-
+  "PIC": "cal_boc",
     "PRICE": "7",
     "TYPE": {
       "es": "BOCADILLOS",
@@ -523,7 +523,7 @@
       "en": "Chicken breast",
       "fr": "POITRINE DE POULET"
     },
-
+  "PIC": "p_pollo_boc",
     "PRICE": 6,
     "TYPE": {
       "es": "BOCADILLOS",
