@@ -294,6 +294,7 @@
       "fr": "NORMAL (VIANDE, FROMAGE, LAITUE ET TOMATE)"
     },
 
+    "PIC": "ham_norm",
     "PRICE": 5,
     "TYPE": {
       "es": "HAMBURGUESAS",
@@ -1023,7 +1024,7 @@
       "en": "CHIPS",
       "fr": "POMMES DE TERRE FRITES"
     },
-
+    "PIC": "rac_pat",
     "PRICE": 5,
     "TYPE": "RACIONES"
   },
