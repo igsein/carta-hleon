@@ -850,7 +850,7 @@
       "en": "RATIONS",
       "fr": "RATIONS"
     },
-    "ALERG": [7,4]
+    "ALERG": [4]
   },
 
 
@@ -1083,7 +1083,7 @@
       "fr": "SOUS RÉSERVE DE DISPONIBILITÉ"
     },
 
-    "ALERG": [4, 14]
+    "ALERG": [4, 14, 7]
   },
   {
     "NAME": {
