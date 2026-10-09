@@ -736,6 +736,7 @@
     },
     "ALERG": [7,   14, 5]
   },
+
   {
     "NAME": {
       "es": "PRUEBA DE CERDO",
@@ -765,6 +766,32 @@
     },
     "ALERG": [7, 8, 11]
   },
+
+
+
+{
+    "NAME": {
+      "es": "Revuelto de gulas",
+      "en": "Scrambled Eggs with Surimi Eel",
+      "fr": "Œufs brouillés aux civelles de surimi"
+    },
+"PIC": "gulas",
+    "PRICE": 12,
+    "TYPE": {
+      "es": "RACIONES",
+      "en": "RATIONS",
+      "fr": "RATIONS"
+    },
+
+ "ALERG": [8,12, 7, 4, 14, 9,10]
+
+
+
+    
+  },
+
+
+
   {
     "NAME": {
       "es": "REJOS",
