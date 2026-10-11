@@ -988,23 +988,7 @@
     },
     "ALERG": [7, 5 ,9]
   },
-  {
-    "NAME": {
-      "es": "FRITURAS DE PESCADITOS",
-      "en": "Fried fish",
-      "fr": "BEIGNETS DE POISSON FRITS"
-    },
-    "PIC": "fritura_pescaditos",
-
-    "PRICE": 13,
-    "TYPE": {
-      "es": "RACIONES",
-      "en": "RATIONS",
-      "fr": "RATIONS"
-    },
-    "ALERG": [7,12]
-  },
-  {
+   {
     "NAME": {
       "es": "SEPIA",
       "en": "Cuttlefish",
